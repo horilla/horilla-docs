@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 import './docs-theme.css'
 import './script.js'
 
@@ -8,6 +9,7 @@ import './script.js'
 
 export default {
   ...DefaultTheme,
+  Layout,
   enhanceApp({ app }) {
     // app.component('VPCarbonAds', VPCarbonAds)
   },
