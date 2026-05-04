@@ -10,7 +10,7 @@ The **Recycle Bin Module** in Horilla CRM ensures that accidentally deleted reco
 
 **Purpose:** Provide a centralized location to manage deleted records across all CRM modules.
 
-![alt text](media/image-39.png)
+![alt text](media/recyclebin/image-1.png)
 
 * Accessible via **Settings → Data Management → Recycle Bin**.
 
@@ -29,7 +29,8 @@ The **Recycle Bin Module** in Horilla CRM ensures that accidentally deleted reco
 * Provides action buttons for **Restore** (undo deletion) and **Permanent Delete** (remove forever).
 
 * Bulk operations are supported via multi-selection checkboxes.
-![alt text](media/image-40.png)
+
+![alt text](media/recyclebin/image-2.png)
 
 ### **1.2 Restoring Deleted Records**
 
@@ -83,7 +84,9 @@ The **Recycle Bin Module** in Horilla CRM ensures that accidentally deleted reco
 * Selected records are clearly highlighted to ensure user clarity before taking action.
 
 ### **1.6 Recycle Bin Policy (Expiry Settings)**
-![alt text](media/image-41.png)
+
+![alt text](media/recyclebin/image-3.png)
+
 **Purpose:** Automate data retention and compliance management.
 
 * Accessible via **Settings → General → Company Information → Recycle Bin Policy**.
@@ -93,8 +96,3 @@ The **Recycle Bin Module** in Horilla CRM ensures that accidentally deleted reco
 * When the expiry period is reached, records are automatically and permanently removed from the Recycle Bin.
 
 * Ensures compliance with organizational data policies without manual intervention.
-
-## **Conclusion**
-
-The **Recycle Bin Module** in Horilla CRM provides a reliable safeguard against accidental data loss by temporarily storing deleted records and offering restoration options. With bulk management tools, confirmation prompts, an **Empty Recycle Bin** feature, and configurable expiry policies, it balances flexibility with security. This ensures organizations can recover important records when needed while maintaining compliance with retention policies through automated permanent deletion.
-

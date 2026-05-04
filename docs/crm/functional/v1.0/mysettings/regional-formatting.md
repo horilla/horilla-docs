@@ -5,7 +5,7 @@
 The **Regional Formatting** settings in Horilla CRM allow users to define how dates, times, currencies, and numbers are displayed across the system. These preferences are user-specific, ensuring that each individual sees data in a format consistent with their regional standards.
 
 Once configured, the selected formats are applied globally to the corresponding field types. This guarantees uniform data presentation across all modules and pages within the CRM, while still accommodating individual user preferences.
-![alt text](media/image-2.png)
+![alt text](media/regional_formatting/image-1.png)
 
 ## **Key Features and Functionalities**
 

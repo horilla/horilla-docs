@@ -18,7 +18,7 @@ The Horilla CRM Incoming Mail Configuration module is a critical component desig
 * Includes a search functionality to quickly locate specific mail configurations.  
 * Features sortable columns with the ability to sort by "Email Host Username" and "Type" using the sorting indicators in the column headers.
 
-![alt text](media/image-49.png)
+![incoming mail](media/incoming_mail/image-1.png)
 
 ### **2.2 Creating a New Mail Configuration**
 
@@ -30,7 +30,8 @@ The Horilla CRM Incoming Mail Configuration module is a critical component desig
   * **Other Mail Servers:** For IMAP, Gmail, Yahoo, or any other mail server  
 * Users select the appropriate server type by clicking either "Select Outlook" or "Select Other" button.
 
-![alt text](media/image-50.png)
+![incoming mail](media/incoming_mail/image-2.png)
+
 
 ### **2.3 Configuring Outlook Mail Server**
 
@@ -38,7 +39,7 @@ The Horilla CRM Incoming Mail Configuration module is a critical component desig
 
 After selecting "Outlook Mail Server" from the server type selection modal, the "Create Mail Configuration" form opens.
 
-![alt text](media/image-51.png)
+![incoming mail](media/incoming_mail/image-3.png)
 
 **Authentication Credentials:**
 
@@ -67,7 +68,8 @@ Click the "Save" button to finalize the configuration.
 
 After selecting "Other Mail Servers" from the server type selection modal, the "Create Mail Configuration" form opens.
 
-![alt text](media/image-52.png)
+![incoming mail](media/incoming_mail/image-4.png)
+
 
 **Server Connection Details:**
 

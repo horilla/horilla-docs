@@ -1,155 +1,106 @@
-# **Schedule**
+## **Schedule – Functional Guide**
 
-## **Introduction**
+### **Introduction**
 
-The **Horilla CRM Schedule Section** provides users with an integrated workspace to manage all time-based activities within the CRM. It combines the **Calendar** and **Activities** modules to enable seamless scheduling, tracking, and organization of meetings, calls, tasks, events, and availability. Together, these modules ensure efficient time management, prevent scheduling conflicts, and maintain a 360° view of all customer and business engagements. With interactive views, color-coded displays, and linked record tracking, the Schedule Section empowers teams to stay organized, proactive, and productive.
+The Horilla CRM Schedule Section provides users with an integrated workspace to manage all time-based activities within the CRM. It combines the **Calendar** and **Activities** modules to enable seamless scheduling, tracking, and organization of meetings, calls, tasks, events, emails, and availability. Together, these modules ensure efficient time management, prevent scheduling conflicts, and maintain a 360° view of all customer and business engagements.
 
-## **1\. Schedule Section Overview**
+### **1\. Schedule Section Overview**
 
 **Purpose:** Provide a unified access point to view and manage all CRM-related schedules and activities.
 
-![alt text](media/image.png)
+![schedule](media/index/image-1.png)
 
-**Access:** Navigate to the **Schedule** section in the sidebar, which includes two sub-sections:
-
-* **Calendar**
-
-* **Activities**
+**Access:** Navigate to the **Schedule** section in the sidebar, which includes two sub-sections: **Calendar** and **Activities**.
 
 **Key Features:**
 
-* Centralized control of all CRM activities and schedules
+* Centralized control of all CRM activities and schedules.  
+* Support for multiple activity types: Task, Meeting, Event, Call, Email, Unavailability.  
+* Quick creation, editing, and tracking of activities from any interface.
 
-* Seamless synchronization between Calendar and Activities modules
-
-* Support for multiple activity types (Task, Meeting, Event, Call, Unavailability)
-
-* Quick creation, editing, and tracking of activities from any interface
-
-## **1.1 Calendar Module**
+### **1.1 Calendar Module**
 
 **Purpose:** Manage all CRM-related activities in a visual, time-based calendar format.
 
-![alt text](media/image-1.png)
-
 **Access:** Schedule → Calendar
 
-**Key Features:**
+![schedule](media/index/image-2.png)
 
-### **Calendar Views**
+#### **Calendar Views**
 
-* **Month View:** Displays all activities for the month in a grid layout.
+* **Month View** — Displays all activities for the month in a grid layout.  
+* **Week View** — Shows detailed scheduling for each week.  
+* **Day View** — Focused display of a single day's activities.  
+* **Year View** — High-level overview of yearly activity distribution.
 
-* **Week View:** Shows detailed scheduling for each week.
+Navigation tools: **Today**, **Previous**, **Next** for quick movement between periods.
 
-* **Day View:** Focused display of a single day’s activities.
+#### **Custom Calendars**
 
-* **Year View:** Provides a high-level overview of the yearly activity distribution.
+* Users can create Custom Calendars linked to any CRM module (Leads, Opportunities, Contacts, etc.).  
+* Each custom calendar maps a module's date field to the calendar view with a chosen color and display name field.  
+* Multiple custom calendars can be active simultaneously, overlaying data from different modules on the same calendar.  
+* Custom calendars are created and managed via the calendar settings panel.
 
-* Navigation tools: **Today, Previous, Next** buttons for quick navigation.
+#### **Google Calendar Integration**
 
-### **Activities and Preferences**
+* Users can connect their Google Calendar account from **My Settings → Google Calendar**.  
+* Supports one-way (Horilla → Google) and two-way (Horilla ↔ Google) sync.  
+* Changes sync in real time when the app is served over HTTPS using Google push notifications.  
+* See the Google Calendar Integration guide for full setup steps.
 
-* Interactive, color-coded activity visualization for better clarity.
+#### **Activity Preferences**
 
-* Supports multiple activity types — **Tasks, Events, Meetings, and Unavailability.**
+* Color-coded activity visualization — each activity type has a user-configurable color.  
+* Filters to display selected activity types only.  
+* Activities appear on their respective start and end times.
 
-* Customizable color settings per user for different activity types.
+#### **Creating a New Activity**
 
-* Filters to display selected activity categories only.
+* Add activities directly from the calendar using quick-add or full-form creation.  
+* Once saved, the activity instantly appears in the selected view.
 
-* Activities appear on their respective start and end times for clear scheduling.
+#### **Activity Detail View**
 
-### **Creating a New Activity**
+* **Quick Detail Popup** — Displays subject, description, assigned user, dates, and status. Quick actions: Edit, Delete, Mark Complete, View Full Info.  
+* **Full Detail View** — All activity fields with inline editing and a history tab.
 
-* Add activities directly from the calendar using quick-add or full-form creation.
+#### **Unavailability Management**
 
-* Once saved, the activity instantly appears in the selected view (Day, Week, Month, or Year).
+* Users can mark themselves unavailable for specific dates or time slots.  
+* Appears on the calendar as a dedicated activity type with optional notes.
 
-### **Activity Detail View**
+### **1.2 Activities Module**
 
-* **Quick Detail Popup:** Displays subject, description, assigned user, dates, and status.
-
-  * Quick actions: *Edit, Delete, Mark Complete, View Full Info*
-
-* **Full Detail View:** Displays all activity fields with inline editing.
-
-  * History tab for tracking changes and progress updates (e.g., Pending → Completed).
-
-### **Unavailability Management**
-
-* Users can mark themselves unavailable for specific dates or time slots.
-
-* Appears on the calendar as a dedicated activity type.
-
-* Optional notes allow users to specify reasons for unavailability.
-
-**Benefits:**
-
-* Centralized scheduling for all CRM activities.
-
-* Flexible calendar views and color-coded clarity.
-
-* Improved productivity with quick creation and updates.
-
-* Prevents scheduling overlaps through unavailability tracking.
-
-* Enhances visibility by linking calendar activities to CRM records.
-
-## **1.2 Activities Module**
-
-**Purpose:** Track, schedule, and manage all CRM-related engagements and follow-ups efficiently.
-
-![alt text](media/image-2.png)
+**Purpose:** Track, schedule, and manage all CRM-related engagements and follow-ups.
 
 **Access:** Schedule → Activities
 
-**Key Features:**
+![schedule](media/index/image-3.png)
 
-### **Activities Overview**
+#### **Activities Overview**
 
-* Displays all activities in a consolidated list format.
+* Displays all activity types in a consolidated list.  
+* Search and filter for quick access to specific activities.  
+* Key fields: Subject, Type, Source, Related To, Status.  
+* Bulk actions: Edit, Delete, Export.
 
-* Search and filter capabilities for quick access to specific activities.
+#### **Activities Kanban Display**
 
-* Key fields displayed: **Subject, Type, Source, Related To, and Status.**
+* Visual board showing activities grouped by status (e.g., Pending, Completed).  
+* Drag-and-drop cards to update activity status directly.  
+* Cards display subject, activity type, and related record.
 
-* Supports bulk actions: **Edit, Delete, Export.**
+#### **Creating a New Activity**
 
-### **Activities Kanban Display**
+* Click **New** to open the creation form.  
+* Core fields include: Activity Type, Subject, Description, Source, Related Record, Status, Start Date, End Date, Location, Assigned To.  
+* Click **Save** to register the activity.
 
-* Visual board showing activities grouped by status (e.g., Pending, Completed).
+#### **Activity Detail View**
 
-* Drag-and-drop cards to update activity status directly.
+* **Details Tab** — All activity fields with inline editing. Fields shown are specific to the activity type.  
+* **History Tab** — Tracks every change including subject edits, reassignments, and status transitions.  
+* **Status Tracking** — Progress bar visually represents the activity stage (Pending → Completed).  
+* Update activity status directly from the detail view.
 
-* Cards display key information such as subject, activity type, and related record.
-
-* Interactive format to track progress more effectively.
-
-### **Creating a New Activity**
-
-* Click **New** to open the creation form.
-
-* Core fields include:
-
-  * **Activity Type** (Task, Meeting, Event, Call, etc.)
-
-  * **Subject, Description, Source, Related Record**
-
-  * **Status (Pending / Completed), Start Date, End Date, Location, Assigned To**
-
-* Save to register the activity, visible in both List and Kanban views.
-
-### **Activity Detailed Information**
-
-* **Details Tab:** Displays and allows inline editing of all activity fields.
-
-* **History Tab:** Tracks every change, including subject edits, reassignments, and status transitions.
-
-* **Status Tracking:** Progress bar visually represents activity stage (e.g., Pending → Completed).
-
-* Update activity status directly from the detailed view.
-
-## **Conclusion**
-
-The **Horilla CRM Schedule Section** provides an intelligent, unified solution for managing time-based CRM activities. By combining the **Calendar** and **Activities** modules, it enables users to plan, execute, and track all business interactions in one place. The visual interfaces, flexible views, and real-time synchronization enhance productivity, ensure accountability, and give teams complete visibility over all customer engagements. With its integration across CRM modules, the Schedule Section ensures that no meeting, task, or opportunity for engagement is ever missed.

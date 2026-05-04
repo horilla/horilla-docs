@@ -2,99 +2,118 @@
 
 ## **What is Horilla CRM?**
 
-Horilla CRM is a comprehensive **Customer Relationship Management** solution engineered to unify sales, marketing, customer data management, scheduling, analytics, and system administration into one cohesive platform. Designed with scalability, flexibility, and usability in mind, Horilla CRM empowers businesses to efficiently manage the entire customer lifecycle — from lead generation to deal closure and beyond.
+Horilla CRM is a comprehensive, open-source Customer Relationship Management solution engineered to unify sales, marketing, customer data management, scheduling, analytics, automation, and system administration into one cohesive platform. Designed with scalability, flexibility, and usability in mind, Horilla CRM empowers businesses to efficiently manage the entire customer lifecycle — from lead generation and campaign execution to deal closure, forecasting, and beyond.
 
-By connecting every customer touchpoint — from initial engagement and campaigns to sales opportunities, activities, and analytics — Horilla CRM ensures complete visibility across your organization’s interactions. Its intuitive design, configurable structure, and robust reporting tools make it a powerful system for enhancing productivity, improving collaboration, and driving informed decision-making.
+By connecting every customer touchpoint — from initial engagement and campaigns to sales opportunities, activities, and analytics — Horilla CRM ensures complete visibility across your organization's interactions. Its intuitive design, configurable structure, real-time capabilities, and robust reporting tools make it a powerful system for enhancing productivity, improving collaboration, and driving informed decision-making.
 
-## **Integrated Platform Foundation**
+### **Integrated Platform Foundation**
 
-At its core, Horilla CRM operates as a fully integrated workspace that unifies all customer-facing operations. This platform brings together sales management, marketing campaigns, customer data, scheduling, analytics, and administrative controls into a single cohesive system, eliminating data silos and ensuring seamless information flow across all business functions.
+At its core, Horilla CRM operates as a fully integrated workspace that unifies all customer-facing operations. Sales management, marketing campaigns, customer data, scheduling, analytics, automation, and administrative controls are brought together into a single cohesive system — eliminating data silos and ensuring seamless information flow across all business functions. Real-time notifications via WebSockets and background task processing via Celery keep the platform responsive and up to date without manual intervention.
 
-## **Comprehensive Modules**
+### **Comprehensive Modules**
 
-Horilla CRM distinguishes itself through a rich set of modules, collectively forming a complete CRM suite:
+Horilla CRM is organized into purpose-built modules that together form a complete CRM suite.
 
-### **Sales**
+#### **Sales**
 
-**Sales Module:**  
- Manage the complete sales lifecycle with modules for Leads, Campaigns, Opportunities, and Forecasts. Track potential customers from initial contact through conversion, execute marketing initiatives, manage deals through pipeline stages, and monitor sales performance against targets.
+Manage the complete sales lifecycle with modules for Leads, Campaigns, Opportunities, and Forecast.
 
-### **People**
+* **Leads** — Capture, qualify, score, and nurture potential customers. Includes a lead scoring engine, Web-to-Lead public forms, Mail-to-Lead email automation, customizable pipeline stages, and full conversion to accounts, contacts, and opportunities.  
+* **Campaigns** — Plan, execute, and track multi-channel marketing campaigns. Monitor campaign performance, lead attribution, conversion rates, and ROI in real time.  
+* **Opportunities** — Manage deals through a configurable sales pipeline. Track stage probability, big deal alerts, split revenue, opportunity teams, and forecasting alignment.  
+* **Forecast** — Project revenue against targets with configurable forecast types and periods. Monitor sales performance and accuracy across teams.
 
-**People Module:**  
- Centralize and manage all contact and organizational relationships with dedicated modules for Accounts and Contacts. Maintain comprehensive relationship data, track interactions, and foster stronger business connections with a 360-degree view of your customer base.
+#### **People**
 
-### **Schedule**
+Centralize and manage all organizational relationships with dedicated modules for Accounts and Contacts.
 
-**Schedule Module:**  
- Manage all time-based activities with Calendar and Activities modules. Schedule and track meetings, tasks, events, calls, and unavailability with visual calendar views and color-coded organization, ensuring efficient time management and preventing scheduling conflicts.
+* **Accounts** — Maintain detailed company and organization profiles, account hierarchies, linked contacts, and interaction history.  
+* **Contacts** — Manage individual contact profiles with full relationship tracking, activity history, and association to accounts and opportunities.
 
-### **Analytics**
+#### **Schedule**
 
-**Analytics Module:**  
- Transform data into actionable insights with Reports and Dashboards. Create customizable data reports with tables, pivot tables, and charts. Build personalized visual dashboards with KPIs and real-time metrics for comprehensive business intelligence.
+Manage all time-based activities with Calendar and Activities modules.
 
-### **Settings**
+* **Calendar** — Schedule and visualize activities across Month, Week, Day, and Year views with color-coded activity types. Includes Google Calendar two-way sync with real-time push notifications.  
+* **Activities** — Create and track Tasks, Events, Meetings, and Calls linked to any CRM record. Manage unavailability and monitor progress through list and Kanban layouts.
 
-**Settings Module:**  
- Configure system-wide parameters through General Settings, Mail Settings, Base Settings, and module-specific configurations. Manage company information, users, permissions, organizational structure, pipeline stages, and data governance from a centralized administrative hub.
+#### **Analytics**
 
-### **My Settings**
+Transform data into actionable insights with Reports and Dashboards.
 
-**My Settings Module:**  
- Personalize individual CRM experience with User Profile, Regional & Formatting, Login History, Holiday management, and Opportunity Team configurations. Control personal preferences, localization settings, and collaborative team structures.
+* **Reports** — Build customizable data reports with tables, pivot views, and charts. Schedule and export reports in CSV, Excel, PDF, and PNG formats.  
+* **Dashboards** — Design personalized visual dashboards with KPI cards, ECharts-based charts, and real-time metrics for comprehensive business intelligence.
 
-## **Key Capabilities**
+#### **Settings**
 
-### **Flexible Visualization**
+Configure system-wide parameters from a centralized administrative hub.
 
-Horilla CRM provides multiple viewing options to match different work styles and needs:
+* **General Settings** — Company information, branches, departments, users, and groups.  
+* **Mail Settings** — Incoming and outgoing mail server configuration, mail templates, and automation rules.  
+* **Base Settings** — Pipeline stage management (Lead Stages, Opportunity Stages), scoring rules, relationship roles, recycle bin, and data import/export controls.  
+* **Integrations** — Google Calendar integration toggle, Web-to-Lead form builder, and Mail-to-Lead email account configuration.
 
-* **List View** for detailed tabular data with sorting and filtering  
-* **Kanban View** for visual pipeline management with drag-and-drop
+#### **My Settings**
 
-### **Advanced Filtering and Customization**
+Personalize each user's individual CRM experience.
 
-The platform offers powerful data management capabilities:
+* User profile, regional formatting, and localization preferences.  
+* Login history and session transparency.  
+* Opportunity team management.  
+* Keyboard shortcut configuration.
 
-* Customizable filters with multiple conditions  
-* Column personalization and field reordering  
-* Saved views and pinned pathways for quick access  
-* Recently Viewed, Created, and Modified record tracking
+### **Key Capabilities**
 
-### **Seamless Integration**
+#### **Flexible Visualization**
 
-All modules work together through comprehensive integration points:
+Every major module supports multiple view modes to match different work styles:
 
-* Lead-to-opportunity conversion  
-* Account and contact linking  
-* Activities connected to all record types  
-* Campaign performance tracking  
-* Forecast synchronization with opportunities  
-* Cross-module reporting and analytics
+* **List View** — Tabular data with sorting, filtering, and column customization.  
+* **Kanban View** — Visual pipeline management with drag-and-drop stage updates.  
+* **Card View** — Compact card layout for a quick overview of records.  
+* **Group By View** — Segment records by any field for comparative analysis.  
+* **Chart View** — ECharts-based visualizations for trend and distribution analysis.  
+* **Split View** — Side-by-side list and detail panel for fast review and editing.  
+* **Timeline View** — Chronological view of records based on dates and activity.
 
-### **Robust Data Management**
+#### **Advanced Filtering and Customization**
 
-Efficient handling of data at scale:
+* Customizable filters with multiple conditions and saved filter sets.  
+* Column personalization and field reordering.  
+* Recently Viewed, Recently Created, and Recently Modified record tracking.
 
-* Bulk operations (Update, Delete, Export)  
-* Multi-format export capabilities (CSV, Excel, PDF, PNG)  
-* Import tools with field mapping  
-* Recycle bin with restore functionality  
-* Complete audit trails and history tracking
+#### **Automation and Integration**
 
-### **Access Control and Security**
+* **Workflow Automations** — Trigger email notifications or in-app alerts on record create, update, delete, or on a schedule, with AND/OR condition logic.  
+* **Sales Cadences** — Multi-step automated follow-up sequences for lead nurturing.  
+* **Google Calendar Sync** — Bidirectional real-time sync with push notification delivery.  
+* **Mail-to-Lead** — Automatic lead creation from IMAP and Microsoft Outlook inboxes.  
+* **Web-to-Lead** — Embeddable public lead capture forms for external websites.
 
-Role-based permissions ensure data security:
+#### **Robust Data Management**
 
-* User groups with defined access levels  
-* Team-based opportunity access (Read/Write, Read-Only)  
-* Login history monitoring  
-* Session tracking and transparency
+* Bulk operations: Update, Delete, and Export across all modules.  
+* Multi-format export: CSV, Excel, PDF, PNG.  
+* Import tools with field mapping for bulk data entry.  
+* Recycle bin with record restoration.  
+* Complete audit trails and change history on every record.  
+* Duplicate detection and record merging.
 
-## **Tailored Adaptability**
+#### **Real-Time Collaboration**
 
-Horilla CRM's comprehensive feature set extends its capability to be seamlessly tailored to specific organizational needs. Its versatility ensures suitability across diverse industries and business models, from small teams managing local relationships to enterprises coordinating complex multi-branch sales operations.
+* WebSocket-powered live notifications delivered instantly in-app.  
+* Real-time dashboard metric updates.  
+* Activity streaming across linked records.
 
-Horilla CRM is not merely a contact management system; it is a complete, integrated, and adaptive platform designed to empower organizations to manage their customer relationships with efficiency and precision. The unified workspace, combined with its extensive range of modules and flexible customization options, positions Horilla CRM as a comprehensive solution for modern customer relationship management challenges.
+#### **Access Control and Security**
+
+* Four-layer permission model: Model-level, Field-level, Row-level (owner-based), and Role hierarchy.  
+* Company-based multi-tenancy — each company's data is fully isolated.  
+* User groups with defined access levels.  
+* Opportunity team access control (Read/Write or Read-Only).  
+* Login history monitoring and session tracking.
+
+### **Tailored Adaptability**
+
+Horilla CRM's modular architecture and configurable structure make it suitable across diverse industries and business models — from small teams managing local relationships to enterprises coordinating complex multi-branch sales operations. Its open-source foundation ensures it can be extended and tailored to meet specific organizational requirements.
 

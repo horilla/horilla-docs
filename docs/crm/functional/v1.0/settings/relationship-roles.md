@@ -13,7 +13,8 @@ The **Organizational Structure & Role Management** module provides administrator
 *  Team roles control feature access, workflow assignments, and collaboration boundaries across different functional groups.  
 * Team roles define the level of access and responsibility for internal users. They control permissions, feature visibility, and workflow ownership within the organization.
 
-![alt text](media/image-24.png)
+
+![alt text](media/relationship_roles/image-1.png)
 
 ### **1.2 Customer Role Management**
 
@@ -22,7 +23,7 @@ The **Organizational Structure & Role Management** module provides administrator
 * Customer roles enable tailored communication, workflows, and services aligned to each customer segment.  
 * Customer roles classify the type of relationship a customer holds (e.g., Prospect, Active Customer, Partner). These roles help tailor communication, processes, and service delivery.
 
-![alt text](media/image-25.png)
+![alt text](media/relationship_roles/image-2.png)
 
 ### **1.3 Partner Role Management**
 
@@ -31,8 +32,7 @@ The **Organizational Structure & Role Management** module provides administrator
 *  Partner roles define collaboration models, partner hierarchies, and access permissions for joint processes.  
 * Partner roles define relationship categories for external business partners. They support role-based collaboration, access rights, and partner-specific workflows.
 
-  
-![alt text](media/image-26.png)
+![alt text](media/relationship_roles/image-3.png)
 
 ## **Benefits**
 

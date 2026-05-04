@@ -9,7 +9,7 @@ The Horilla CRM Analytics Section provides a comprehensive platform for data ana
 ### **2.1 Analytics Section Overview**
 
 **Purpose:** Provide a unified interface for comprehensive business intelligence and data analysis.
-![alt text](media/image.png)
+![alt text](media/index/image-1.png)
 
 **Access:** Analytics section in the sidebar with two sub-sections:
 
@@ -31,7 +31,7 @@ The Horilla CRM Analytics Section provides a comprehensive platform for data ana
 
 **Access:** Analytics → Reports
 
-![alt text](media/image-1.png)
+![alt text](media/index/image-2.png)
 
 **Key Features:**
 
@@ -55,7 +55,7 @@ The Horilla CRM Analytics Section provides a comprehensive platform for data ana
 
 **Access:** Analytics → Dashboards
 
-![alt text](media/image-2.png)
+![alt text](media/index/image-3.png)
 
 **Key Features:**
 
@@ -100,8 +100,3 @@ The Horilla CRM Analytics Section provides a comprehensive platform for data ana
 * Breadcrumb navigation for easy orientation  
 * Quick filters (All Reports, All Folders, Favorites, etc.)  
 * Search functionality across reports and dashboards
-
-
-## **Conclusion**
-
-The Horilla CRM Analytics Section provides organizations with a powerful, integrated platform for data analysis and business intelligence. By combining detailed reporting capabilities with visual dashboard analytics, the section enables users at all levels to extract meaningful insights, monitor key performance indicators, and make informed business decisions. The flexible organization, multiple visualization options, and robust export functionality ensure that analytical capabilities scale with organizational growth and meet diverse analytical needs.

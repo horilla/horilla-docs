@@ -1,15 +1,16 @@
-# **Horilla CRM Dashboard & Home – Functional Guide**
+# **Dashboard & Home – Functional Guide**
 
 ## **Introduction**
 
-The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-friendly interface for visualizing and analyzing key business metrics and CRM performance indicators. Designed for CRM administrators, business analysts, and end-users, this module integrates seamlessly with other Horilla CRM components to deliver real-time insights. Users can create customizable dashboards, organize them hierarchically, and configure personalized home pages to streamline access to critical data. With intuitive navigation, flexible component management, and robust export options, the module empowers users to monitor and optimize business performance efficiently.
+The Horilla CRM Dashboard & Home Page Module provides a powerful, user-friendly interface for visualizing and analyzing key business metrics and CRM performance indicators. Designed for CRM administrators, business analysts, and end-users, this module integrates seamlessly with other Horilla CRM components to deliver real-time insights. Users can create customizable dashboards, organize them hierarchically, and configure personalized home pages to streamline access to critical data. With intuitive navigation, flexible component management, date range filtering, and robust export options, the module empowers users to monitor and optimize business performance efficiently.
 
 ## **Key Features and Functionalities**
 
 ### **1.1 Dashboard Management**
 
 **Purpose**: Enable users to create, organize, and manage multiple analytical dashboards for tailored business insights.
-![alt text](media/image-10.png)
+
+![alt text](media/dashboard/image-1.png)
 
 * **Create Multiple Dashboards**: Users can create unlimited dashboards to track various business needs (e.g., sales performance, customer support metrics).  
 * **Dashboard Naming & Description**: Assign descriptive names (e.g., "Q1 Sales Overview") and detailed descriptions for easy identification.  
@@ -20,11 +21,13 @@ The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-frien
 ### **1.2 Folder Organization System**
 
 **Purpose**: Provide a hierarchical structure for organizing dashboards and improving navigation.
-![alt text](media/image-11.png)
+
+![alt text](media/dashboard/image-2.png)
+
 
 * **Create Multiple Folders**: Organize dashboards into logical folders (e.g., "Sales Dashboards," "Marketing Analytics").  
 * **Folder Naming & Description**: Assign clear names and descriptions to folders for easy reference.  
-* **Nested Folder Support**: Folders can contain dashboards and sub-folders, enabling hierarchical organization (e.g., Main Folder \> Sales \> Q1 Reports). ![alt text](media/image-14.png)
+* **Nested Folder Support**: Folders can contain dashboards and sub-folders, enabling hierarchical organization (e.g., Main Folder \> Sales \> Q1 Reports).  
 * **Folder Detail View**: Clicking a folder name displays its contents, including dashboards and sub-folders.  
 * **Dashboard-Folder Assignment**: Move dashboards between folders or assign them to a folder during creation.
 
@@ -32,18 +35,19 @@ The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-frien
 
 **Purpose**: Allow quick access to frequently used dashboards and folders .
 
+![alt text](media/dashboard/image-3.png)
+
+
 * **Favorite Any Dashboard**: Mark any dashboard/folders as a favorite, regardless of its folder location.  
 * **Quick Favorite Access**: Favorited ones appear in a dedicated "Favorites" section in the sidebar.  
-* **Visual Favorite Indicators**: Star icons highlight favorite dashboards/folders in listings for easy identification.
-
-![alt text](media/image-12.png)
-
-  
+* **Visual Favorite Indicators**: Star icons highlight favorite dashboards/folders in listings for easy identification.  
 
 ### **1.4 Dashboard Detail View & Interaction**
-![alt text](media/image-13.png)
 
 **Purpose**: Provide a comprehensive, interactive view of dashboards and their components.
+
+![alt text](media/dashboard/image-4.png)
+
 
 * **Interactive Dashboard Display**: View all configured components in an organized, responsive layout.  
   1. **Add Components Button**: Easily add new widgets via a dedicated button.  
@@ -59,36 +63,53 @@ The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-frien
 
 **Purpose**: Provide flexible data visualization through diverse component types to display CRM data effectively.
 
+![alt text](media/dashboard/image-5.png)
+
 * **Available Component Types**:  
   * **Charts**: Visualize data with bar, line, pie, or other chart types (e.g., a line chart showing monthly lead growth).  
   * **Table Data**: Display CRM data in tabular format (e.g., a table listing top customers by revenue).  
   * **KPI Widgets**: Highlight **key performance indicators**, such as total sales or customer satisfaction scores.  
 * **Component Configuration**:  
-  * **Component Name**: Assign descriptive names (e.g., "Lead Conversion Rate").  
-  * **Module Selection**: Choose data source modules (e.g., Sales, Leads, Customer Support).  
-  * **Metric Field Selection**: Select specific metrics to display (e.g., "Total Revenue" or "Number of Active Leads").  
+  * **Component Name:** Assign clear and descriptive names for each dashboard component (e.g., “Lead Conversion Rate”).  
+  * **Module Selection:** Choose the data source module such as Leads, Customers, or Sales.  
+  * **Component Type:** Select the display format including Chart, Table Data, or KPI.  
+  * **Metric Field Selection:** Configure how data should be calculated:  
+    * Count – Count the total number of records.  
+    * Sum – Calculate the total value of a numeric field.  
+    * Average – Calculate the average value.  
+    * Min – Display the minimum value.  
+    * Max – Display the maximum value.  
+  * **Grouping Field (X-Axis):** Group data using a categorical field such as Lead Source or Assigned User.  
+  * **Secondary Grouping:** Add an additional grouping level to create multi-series or stacked charts.  
+  * **Y-Axis Metric:** Configure a secondary metric for dual-axis chart visualization.  
+  * **Table Columns:** Select the fields to display as columns in table components.  
+  * **KPI Icon:** Upload a custom icon for visually identifying KPI widgets.  
   * **Condition-Based Filtering**: Apply filters with multiple conditions (e.g., "Show sales data for Q1 2025 where revenue \> $10,000").
-![alt text](media/image-15.png)
 
-### 
-
-### 
 
 ### **1.6 Component Preview & Management**
 
 **Purpose**: Enable users to preview and manage dashboard components efficiently.
 
-* **Real-time Preview**: Preview component appearance before adding it to a dashboard.  
-![alt text](media/image-16.png)
+* **Real-time Preview**: Preview component appearance before adding it to a dashboard.
+
+![alt text](media/dashboard/image-6.png)
 
 * **Component Reordering**: Drag-and-drop to reorder all dashboard components for customized layouts.  
 * **Separate KPI Reordering**: Independently reorder KPI widgets for prioritized display.  
-![alt text](media/image-17.png)
+* **Persistent Reordering:** All reorder changes are saved per user per dashboard and restored on next visit.  
+* **Layout Reset:** Reset the saved layout for a specific dashboard, reverting to the system default order. 
+
+![alt text](media/dashboard/image-7.png)
+
 
 
 ### **1.7 Navigation & Folder Hierarchy**
 
 **Purpose**: Ensure intuitive navigation through the dashboard organizational structure.
+
+![alt text](media/dashboard/image-8.png)
+
 
 * **Breadcrumb Navigation**: Displays the current path (e.g., All Folders \> Sales \> Q1 Dashboards) for easy orientation.  
 * **Sidebar Navigation**: Includes sections for:  
@@ -98,22 +119,40 @@ The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-frien
 * **Hierarchical Folder View**: Folders can contain dashboards and sub-folders for flexible organization.  
 * **Quick Navigation Actions**: Direct links to create dashboards, manage folders, or access favorites.
 
-![alt text](media/image-18.png)
+**1.8 Report & Chart View Integration**
 
-### **1.8 Home Page Configuration**
+* **Add Report as Component:**   
+  * From the Reports module detail view, any saved report that includes a chart can be added directly to a dashboard as a component.   
+  * When adding, the chart type, grouping field, and secondary grouping are automatically mapped from the report's existing configuration — no manual reconfiguration needed.   
+  * This lets users surface report-level insights directly inside a dashboard without rebuilding the chart from scratch.  
+* **Add Chart View as Component:**   
+  * Every CRM module (e.g., Leads, Customers, Deals) includes a Chart View — a visual chart representation of that module's data.   
+  * From within that module's chart view, users can pin it to any dashboard as a persistent component.  
+  * The module and grouping configuration are captured at the time of saving, so the chart continues to render live data within the dashboard context.
+
+### **1.9 Home Page Configuration**
 
 **Purpose**: Deliver personalized home page experiences based on user preferences.
 
-* **Default Dashboard Home Page**: Setting a dashboard as default makes it the user’s home page upon login.  
-
-![alt text](media/image-19.png)
-
-* **System Default Home Page**: If no dashboard is set, users see the standard system home page.  
+* **Default Dashboard Home Page:** Setting a dashboard as default makes it the user's home page upon login. The dashboard renders directly within the home page view, including all components and the date range filter.  
     
-![alt text](media/image-20.png)
-    
-* **Dynamic Home Page Loading**: Home page content updates automatically based on default dashboard selection.  
-* **User-Specific Configuration**: Each user can set their own default dashboard for a tailored experience.
+![alt text](media/dashboard/image-9.png)
+
+* **System Default Home Page:** If no dashboard is set as default, users see the standard system home page, which contains a dynamically generated set of KPI, chart, and table widgets based on configured CRM modules.
+
+![alt text](media/dashboard/image-10.png)
+
+
+* **Default Home Layout Ordering:** On the system default home page, KPI widgets and charts/tables can each be independently reordered. The custom layout is saved per user and restored on subsequent visits.  
+* **Reset Default Home Layout:** Users can reset the default home page layout back to the system-generated order at any time.  
+* **Dynamic Home Page Loading:** The home page content updates automatically based on the user's default dashboard selection — switching the default dashboard immediately changes the home page on next login.  
+* **User-Specific Configuration:** Each user independently manages their own default dashboard and home layout without affecting other users.  
+* **Date Range Filtering:**  Allow users to analyze dashboard data across specific time windows.  
+  * Preset Ranges: One-click filters for Last 7 Days, Last 30 Days, Last 60 Days, and Last 90 Days.  
+  * Custom Date Range: Define a specific start and end date using a date picker.  
+  * All Data: Remove date filtering to display all historical records.  
+  * Dashboard-Wide Application: The selected date range applies simultaneously to all chart, table, and KPI components on the dashboard.  
+  * Automatic Date Field Detection: The system automatically identifies the date field on each module's model to apply the filter correctly.
 
 ## **Benefits**
 
@@ -121,9 +160,11 @@ The **Horilla CRM Dashboard & Home Page Module** provides a powerful, user-frien
 * **Flexible Organization**: Hierarchical folder system supports diverse organizational needs.  
 * **Personalized Experience**: Custom home pages and favorites enhance user efficiency.  
 * **Real-time Data Visualization**: Dynamic components deliver up-to-date insights.  
+* **14 Chart Types:** Comprehensive visualization options cover every analytical need from trend analysis to flow diagrams.  
 * **Scalable Dashboard Management**: Supports unlimited dashboards and folders for growing businesses.  
 * **Enhanced Productivity**: Favorites and quick navigation reduce time spent locating key dashboards.  
-* **Comprehensive Analytics**: Multiple component types address varied analytical needs.  
-* **User-Friendly Interface**: Intuitive navigation and management lower the learning curve.  
-* **Data Export Capabilities**: PNG and PDF exports facilitate reporting and external analysis.  
-* **Collaborative Dashboard Sharing**: Ownership and folder assignments enable team collaboration.
+* **Advanced Analytics:** Metric aggregation (sum, average, min, max), secondary grouping, and multi-condition filtering enable deep analysis.  
+* **Report Integration:** Seamlessly convert existing Horilla Reports into dashboard components.  
+* **User-Friendly Interface:** Intuitive navigation and management lower the learning curve.  
+* **Data Export Capabilities:** PNG, PDF, CSV, and Excel exports facilitate reporting and external analysis.  
+* **Collaborative Dashboard Sharing:** Ownership, folder assignments, and copy-to-dashboard enable team collaboration.

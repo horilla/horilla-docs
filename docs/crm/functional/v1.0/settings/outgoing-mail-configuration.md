@@ -1,4 +1,4 @@
-# **Horilla CRM Outgoing Mail Configuration – Functional Guide**
+# **Outgoing Mail Configuration – Functional Guide**
 
 ## **1\. Introduction**
 
@@ -17,7 +17,7 @@ The Horilla CRM Outgoing Mail Configuration module is a critical component desig
 * Includes a search functionality to quickly locate specific mail configurations.  
 * Features sortable columns with the ability to sort by "Email Host Username" and "Type" using the sorting indicators in the column headers.
 
-![alt text](media/image-53.png)
+![mail](media/outgoing_mail/image-1.png)
 
 ### **2.2 Creating a New Mail Configuration**
 
@@ -28,14 +28,14 @@ The Horilla CRM Outgoing Mail Configuration module is a critical component desig
   * **Other Mail Servers:** For SMTP, Gmail, Yahoo, or any other mail server  
 * Users select the appropriate server type by clicking either "Select Outlook" or "Select Other" button.
 
-![alt text](media/image-54.png)
+![mail](media/outgoing_mail/image-2.png)
 
 ### **2.3 Configuring Outlook Mail Server**
 
 * **Purpose:** Set up Microsoft Outlook/Office 365 email integration using OAuth authentication.  
 * After selecting "Outlook Mail Server" from the server type selection modal, the "Create Mail Configuration" form opens.
 
-![alt text](media/image-55.png)
+![mail](media/outgoing_mail/image-3.png)
 
 **Authentication Credentials:**
 
@@ -62,7 +62,7 @@ The Horilla CRM Outgoing Mail Configuration module is a critical component desig
 * **Purpose:** Set up SMTP-based email servers including Gmail, Yahoo, or custom mail servers.  
 * After selecting "Other Mail Servers" from the server type selection modal, the "Outgoing Mail Server Configuration" form opens.
 
-![alt text](media/image-56.png)
+![mail](media/outgoing_mail/image-4.png)
 
 **Server Connection Details:**
 
@@ -92,6 +92,7 @@ The Horilla CRM Outgoing Mail Configuration module is a critical component desig
 ### **2.5 Managing Existing Configurations**
 
 * **Purpose:** Provide comprehensive management and control options for configured mail servers.  
+* Primary Mail Server enforcement — Only one configuration can be marked as Primary at a time. Setting a new configuration as Primary automatically removes the Primary designation from the previous one. If no configuration exists yet, the first one created is automatically set as Primary.
 * Each mail configuration row in the table includes multiple action icons that vary based on the mail server type:  
   **For Outlook Mail Server Configurations:**  
 * Refresh token  

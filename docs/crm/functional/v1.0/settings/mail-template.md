@@ -1,4 +1,4 @@
-# **Horilla CRM Mail Template – Functional Guide**
+# **Mail Template – Functional Guide**
 
 ## **1\. Introduction**
 
@@ -10,7 +10,7 @@ The Mail Template module enables users to create and manage reusable email templ
 
 **Purpose:** Display all configured mail templates in a centralized view for easy management.
 
-![alt text](media/image-61.png)
+![mail template](media/mail_template/image-1.png)
 
 * Navigate to Settings \> Mail \> Mail Template  
 * The interface displays:  
@@ -24,13 +24,15 @@ The Mail Template module enables users to create and manage reusable email templ
 
 **Purpose:** Create reusable email templates for different CRM entities.
 
-![alt text](media/image-62.png)
+![mail template](media/mail_template/image-2.png)
+
 
 Click the "New" button to open the "Create Mail Template" modal.
 
 **Form Fields:**
 
 * **Template title:** Enter a descriptive name for the template  
+* **Subject:** Subject of the mail.
 * **Related Model:** Select the CRM entity type (optional dropdown)  
   * Options: Lead, Contact, Opportunity, etc.  
 * **Body:** Rich text editor with formatting tools.
@@ -41,17 +43,20 @@ Click "Save Template" to finalize.
 
 **Purpose:** Edit or remove mail templates as needed.
 
+![mail template](media/mail_template/image-3.png)
+
 Each template row includes:
 
 * **Edit icon:** Modify template content and settings  
 * **Delete icon:** Remove the template permanently
 
-## **3\. Best Practices**
+**2.4 Template Detail View (Preview)**
 
-* Use descriptive template titles that clearly indicate purpose  
-* Associate templates with appropriate Related Models for organized workflow  
-* Utilize formatting tools to create professional, readable emails  
-* Use variables/placeholders for dynamic content personalization  
-* Regularly review and update templates to maintain relevance  
-* Delete unused templates to keep the list manageable
+Purpose: View a rendered preview of the mail template content.
+
+![mail template](media/mail_template/image-4.png)
+
+* Click on any template record in the list to open the detail view  
+* A modal displays the full visual preview of the email template.  
+* This preview reflects how the email will appear to the recipient, with live template variables shown in their placeholder form
 

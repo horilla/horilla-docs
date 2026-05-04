@@ -1,4 +1,4 @@
-# **Horilla CRM Branch & Department Management – Complete Functional Guide**
+# **Branch & Department Management – Complete Functional Guide**
 
 ## **Introduction**
 
@@ -17,12 +17,12 @@ Navigate to: **Settings → Base → Departments**
 ### **1.1 Department Management**
 
 **Purpose:** Define organizational departments to categorize users and structure business operations.
-![alt text](media/image-17.png)
 
 *  Departments provide a clear hierarchy and alignment between teams, enabling streamlined reporting and access management.  
 * Departments represent organizational units such as Sales, Marketing, or Support. They provide structure for grouping users, aligning responsibilities, and managing departmental reporting.
 
-![alt text](media/image-18.png)
+![alt text](media/branches_departments/image-1.png)
+
 
 ### **2\. Accessing Branches (Companies)**
 
@@ -39,54 +39,84 @@ Here, administrators can view, create, and manage branches (companies).
   * Delete branch (company).  
 * Search and filter options allow quick access to branches (companies).
 
-![alt text](media/image-19.png)
+![alt text](media/branches_departments/image-2.png)
 
 ### **2.2. Create New Branch (Company)**
 
 Click **New** to open the branch (company) creation form.
 
-![alt text](media/image-20.png)
+The form supports two modes:
 
-**Branch (Company) Form Fields:**
+* **Multi-Step Form**  
+* **Single-Step Form**
 
-#### **Company Information**
+Users can switch between both modes at any time using the toggle options at the top of the form.
 
-* **Company Name**: Enter the official name of the branch/company  
-* **Email Address**: Primary email contact for the branch (company)  
-* **Website**: Company website URL  
-* **Company Icon**: Upload company logo/icon using "Choose File" button
 
-#### **Contact Details**
+## **Multi-Step Form**
 
-* **Contact Number**: Primary phone number for the branch (company)  
-* **Fax Number**: Fax contact number
+**Purpose:** Guided and structured branch (company) creation across multiple steps.
 
-#### **Business Metrics**
+![alt text](media/branches_departments/image-3.png)
 
-* **Annual Revenue**: Enter the annual revenue figure  
-* **Number of Employees**: Total employee count for this branch (company)
+### **Step 1 – Basic Information**
 
-#### **Location Settings**
+Enter core company details:
 
-* **Head Quarter Toggle**: Mark if the branch (company) is a head office  
-* **City**: Enter city name  
-* **State/Province**: Enter state or province  
-* **Country**: Select from dropdown  
-* **ZIP/Postal Code**: Enter postal/ZIP code
+* Company Name  
+* Email Address  
+* Website  
+* Company Icon  
+* Contact Number  
+* Fax Number
 
-#### **Localization & Format Settings**
+### **Step 2 – Business Details**
 
-* **Time Zone**: Select appropriate time zone   
-* **Language**: Select language  
-* **Currency**: Select currency   
-* **Time Format**: Choose time display format (e.g., "HH:MM:SS AM/PM (01:45:00 PM)")  
-* **Date Format**: Choose date display format (e.g., "YYYY-MM-DD (2006-10-25)")
+Enter business-related information:
 
-#### **Multi-Currency Feature**
+* Annual Revenue  
+* Number of Employees  
+* Head Quarter toggle
 
-* **Activate Multiple Currencies**: Toggle switch to enable multi-currency support for the branch (company)
 
-After entering all required details → click **Save**.
+### **Step 3 – Location & Locale**
+
+Configure address and localization details:
+
+* Country  
+* State/Province  
+* City  
+* ZIP/Postal Code  
+* Language  
+* Time Zone
+
+### **Step 4 – Preferences**
+
+Configure formatting and currency preferences:
+
+* Currency  
+* Time Format  
+* Date Format  
+* Date Time Format  
+* Activate Multiple Currencies toggle
+
+## **Single-Step Form**
+
+**Purpose:** Quick branch (company) creation when all information is readily available.
+
+![alt text](media/branches_departments/image-4.png)
+
+### **Features**
+
+* Displays all branch (company) fields on a single page.  
+* No step-by-step navigation required.  
+* Faster data entry process for administrators.
+
+### **Usage**
+
+* Switch to **Single-Step Form** using the toggle option at the top of the form.  
+* Enter all required details in a single screen.  
+* Click **Save** to create the branch (company).
 
 ### **2.3. Automated Stage Setup After Saving a Branch (Company)**
 
@@ -99,7 +129,8 @@ A unique capability of Branch (Company) Management is the **automated opening of
   * Options include stage name, order number, probability percentage, and marking a stage as **Final**.  
   * Supports both default stages and custom stages.
 
-![alt text](media/image-21.png)
+![alt text](media/branches_departments/image-5.png)
+
 
 * **Step 2: Opportunity Stage Template**
 
@@ -107,18 +138,20 @@ A unique capability of Branch (Company) Management is the **automated opening of
   * Admins can manage sales pipeline stages for opportunities with similar customization: order, probability, and final stage marking.  
   * Default and custom stages are both supported.
 
-![alt text](media/image-23.png)
+![alt text](media/branches_departments/image-6.png)
 
 This ensures every branch (company) has a **standardized sales process** aligned with organizational needs right at creation.
+
 
 ### **2.4. Branch (Company) Detail View**
 
 Clicking on a branch (company) opens a **detailed view page** with structured sections:
 
-![alt text](media/image-22.png)
+![alt text](media/branches_departments/image-7.png)
 
 * **Company Information**  
   * Name, Email, Website, Contact Number, Annual Revenue, Number of Employees.  
+      
 * **Address**  
   * City, State/Province, Country, ZIP/Postal Code.  
 * **Localization**  

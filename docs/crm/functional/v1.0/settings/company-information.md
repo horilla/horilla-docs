@@ -1,4 +1,4 @@
-# **Horilla CRM Company Information Settings – Functional Guide**
+# **Company Information Settings – Functional Guide**
 
 ## **Introduction**
 
@@ -17,7 +17,7 @@ Navigate to: **Settings  → General → Company Information**
 
 **Purpose:** Manage core organizational profile information.
 
-![alt text](media/image.png)
+![company info](media/company-info/image-1.png)
 
 * **Company Profile:** Configure logo, name, phone, fax, email, website, and address (country, state/province, city, postal code).
 
@@ -31,7 +31,7 @@ Navigate to: **Settings  → General → Company Information**
 
 **Purpose:** Configure financial year settings for reporting and forecasting.
 
-![alt text](media/image-1.png)
+![company info](media/company-info/image-2.png)
 
 * **Fiscal Year Type:**
 
@@ -45,13 +45,14 @@ Navigate to: **Settings  → General → Company Information**
 
 * **Preview Calendar Button:** View fiscal year layout.  
   
-![alt text](media/image-2.png)
+![company info](media/company-info/image-3.png)
+
 
 * **Manage Fiscal Year Button:** Switch between **Standard** and **Custom** fiscal year.
 
 ### **Custom Fiscal Year Options**
 
-![alt text](media/image-3.png)
+![company info](media/company-info/image-4.png)
 
 When selecting **Custom Fiscal Year**, administrators can configure the fiscal calendar using **Year-Based** or **Quarter-Based** patterns.
 
@@ -83,7 +84,8 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 
 **Purpose:** Define organizational working hours and schedules.
 
-![alt text](media/image-4.png)
+![company info](media/company-info/image-5.png)
+
 
 * **Business Hours Management Table:**  
    Columns → Name, Time Zone, Business Hour Type, Week Start Day, Is Default, Actions
@@ -104,7 +106,7 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 
 **Create Business Hours:**
 
-![alt text](media/image-7.png)
+![company info](media/company-info/image-6.png)
 
 * Name: Enter a descriptive schedule name.
 
@@ -120,7 +122,9 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 ## **4\. Holidays Tab**
 
 **Purpose:** Manage the company holiday calendar.  
-![alt text](media/image-5.png)
+
+![company info](media/company-info/image-7.png)
+
 
 * **Holiday Management Table:**  
    Columns → Holiday Name, Start Date, End Date, Recurring, Actions
@@ -139,7 +143,8 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 
 **Create Holiday:**
 
-![alt text](media/image-8.png)
+![company info](media/company-info/image-8.png)
+
 
 * Holiday Name: Enter holiday name.
 
@@ -157,7 +162,7 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 
 **Purpose:** Manage multi-currency settings and exchange rates.
 
-![alt text](media/image-6.png)
+![company info](media/company-info/image-9.png)
 
 * **Default Currency:** Company’s primary currency.
 
@@ -168,7 +173,8 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 
 **Add New Currency:**
 
-![alt text](media/image-9.png)
+![company info](media/company-info/image-10.png)
+
 
 * Currency: Select from dropdown.
 
@@ -191,11 +197,16 @@ When selecting **Custom Fiscal Year**, administrators can configure the fiscal c
 * **Update Conversion Rates:** Change conversion rate across currencies.
 
 * **Dated Exchange Rates:** Add exchange rates valid for specific dates.  
-![alt text](media/image-10.png)
+
+![company info](media/company-info/image-11.png)
+
 
 ## **6\. Recycle Bin Policy Tab**
 
 **Purpose:** Configure record retention and recovery policy.
+
+![company info](media/company-info/image-12.png)
+
 
 * **Default Expire Days:** Specify how long deleted records remain recoverable (default \= 30 days).
 

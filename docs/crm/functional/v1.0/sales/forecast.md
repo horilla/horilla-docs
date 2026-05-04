@@ -1,151 +1,128 @@
-# **Horilla CRM Forecast – Functional Guide**
+# **Forecast – Functional Guide**
 
 ## **Introduction**
 
-The Horilla CRM Forecast Module is a sophisticated feature designed to streamline sales forecasting and target management within the CRM ecosystem. It provides a comprehensive, intuitive interface that empowers businesses to set revenue and quantity targets, track performance against goals, and gain visibility into sales pipeline metrics. This module supports the creation of customizable forecast types, enables period-based target setting, and delivers real-time achievement tracking to help organizations make data-driven decisions and optimize sales performance.
+The **Horilla CRM Forecast Module** is a sophisticated feature designed to streamline sales forecasting and target management within the CRM ecosystem. It provides a comprehensive, intuitive interface that empowers businesses to set **revenue and quantity targets**, track performance against goals, and gain visibility into sales pipeline metrics. This module supports *customizable forecast types*, fiscal-year-based navigation, period-based target setting, role-based target assignment, and real-time achievement tracking.
 
 ## **Key Features and Functionalities**
 
-1. ### **Forecast Types Management**
+### **1\. Forecast Types Management**
 
 **Purpose:** Define and manage different categories of forecasts to align with business objectives.
 
-1. #### **Accessing Forecast Types**
+#### **Accessing Forecast Types**
 
-* Navigate to **Settings \> Forecast \> Forecast Type** from the sidebar menu.  
-* The Forecast Types page displays all configured forecast categories in a table format.
+* Navigate to Settings → Forecast → Forecast Type.  
+* Displays all configured forecast categories in a list.
 
-![alt text](media/image-18.png)
+![forecast](media/forecast/image-1.png)
 
-2. #### **Viewing Forecast Types**
+#### **Viewing Forecast Types**
 
-* The table shows three key columns:  
-  * **Forecast Type Name** – The unique identifier for each forecast category  
-  * **Forecast Type** – The underlying metric being tracked (Deal Quantity or Deal Revenue Amount)  
-  * **Is Active** – Current status indicator (Yes/No)  
-* **Actions** column provides quick access to edit (pencil icon) or delete (trash icon) options.
+* Columns displayed: **Forecast Type Name**, **Forecast Type** *(Deal Quantity or Deal Revenue Amount)*, **Is Active**.  
+* Actions: **Edit** or **Delete** each forecast type.
 
-  3. #### **Creating a New Forecast Type**
+#### **Creating a New Forecast Type**
 
-* Click the **"New"** button in the top-right corner to open the creation modal.  
-* Complete the form with the following fields:  
-  * **Forecast Type Name**\* (required) – Enter a descriptive name for the forecast  
-  * **Forecast Type**\* (required) – Select from dropdown:  
-    * Deal Revenue Amount  
-    * Deal Quantity  
-  * **Description** (optional) – Add contextual information in the text area  
-  * **Filter Opportunities** – Configure advanced filtering with:  
-    * Select Field dropdown  
-    * Select Operator dropdown  
-    * Enter Value text field  
-    * Select Logical Operator dropdown  
-  * Click **"+ Add More"** to create multiple filter conditions  
-* Click **"Save"** to create the forecast type.
+* Click **New** to open the creation form.
 
-![alt text](media/image-19.png)
+![forecast](media/forecast/image-2.png)
 
-4. #### **Managing Existing Forecast Types**
+* Fill in:  
+  * **Forecast Type Name** *(required)*  
+  * **Forecast Type** *(required)* — Deal Revenue Amount or Deal Quantity  
+  * **Description** *(optional)*  
+  * **Filter Opportunities** — configure advanced filtering conditions using *Field*, *Operator*, *Value*, and *Logical Operator*. Click **\+ Add More** to add multiple conditions.  
+* Click **Save**.
 
-* Use the search bar to quickly locate specific forecast types.  
-* Edit existing forecasts by clicking the pencil icon in the Actions column.  
-* Remove unwanted forecasts using the delete icon (confirmation required).
+#### **Managing Existing Forecast Types**
 
-2. ### **Forecast Targets Configuration**
+* Use the **search bar** to locate specific forecast types.  
+* **Edit** using the pencil icon or **Delete** using the trash icon.
+
+### **2\. Forecast Targets Configuration**
 
 **Purpose:** Set and manage performance targets for team members across specific periods and forecast types.
 
-![alt text](media/image-20.png)
+#### **Accessing Forecast Targets**
 
-1. #### **Accessing Forecast Targets**
+* Navigate to Settings → Forecast → Forecast Target.  
+* Filter the list using **Forecast Type** and **Forecast Period** dropdowns at the top.
 
-* Navigate to **Settings \> Forecast \> Forecast Target** from the sidebar menu.  
-* The page displays configured targets with filtering options for Forecast Type and Forecast Period.
+![forecast](media/forecast/image-3.png)
 
-  2. #### **Viewing Forecast Targets**
 
-* Dropdown filters at the top allow selection of:  
-  * **Forecast Type** – Filter by specific forecast category (e.g., Revenue Forecast)  
-  * **Forecast Period** – Select time period (e.g., FY 2025 \- Period 5\)  
-* The table displays:  
-  * **Assigned User** – Team member responsible for the target  
-  * **Role** – Position of the assigned user  
-  * **Target** – Numerical goal value  
-  * **Actions** – Edit and delete options
+#### **Viewing Forecast Targets**
 
-  3. #### **Creating a New Forecast Target**
+* Columns displayed: **Assigned User**, **Role**, **Target**, **Actions**.
 
-  Click the **"Set Target"** button to open the target creation modal.
+#### **Creating a New Forecast Target**
 
-![alt text](media/image-21.png)
+* Click **Set Target** to open the target creation form.
 
-     **Configuration Options:**
+![forecast](media/forecast/image-4.png)
 
-* **Role-Based Assignment** toggle – Enable to assign targets by role instead of individual users  
-* **Same Period for All** toggle – Apply the same period to all target rows  
-* **Same Forecast Type for All** toggle – Use identical forecast type across all entries  
-* **Same Target for All** toggle – Set uniform target values for multiple users
+* Toggle options to simplify bulk entry:  
+  * **Role-Based Assignment** — enable to assign targets by role; the user list filters to only users with the selected role.  
+  * **Same Period for All** — apply a single period across all target rows.  
+  * **Same Forecast Type for All** — use the same forecast type for all rows.  
+  * **Same Target for All** — set a uniform target value for all rows.  
+* Per-row fields *(shown when corresponding toggle is off)*:  
+  * Select **User**  
+  * Select **Period**  
+  * Select **Forecast Type**  
+  * Enter **Target Amount**  
+* Click **\+ Add More** to add additional rows for multiple users or periods.  
+* The system *validates for duplicate combinations* (same user \+ period \+ forecast type) and prevents saving duplicates.  
+* Click **Save** to finalize.
 
-  **Target Details:**
+#### **Managing Existing Targets**
 
-* **Select User** section with table including:  
-  * Select User dropdown  
-  * Select Period dropdown  
-  * Select Forecast Type dropdown (truncated in display)  
-  * Enter target text field (placeholder: "Enter target")  
-  * Help text: "Enter the target amount"  
-* Click **"+ Add More"** to create additional target rows for multiple users or periods.  
-* Click **"Save"** to finalize and store the targets.
+* **Edit** targets using the pencil icon or **Delete** using the trash icon.
 
-  4. #### **Managing Existing Targets**
-
-* Use the search functionality to locate specific targets.  
-* Edit targets using the pencil icon in the Actions column.  
-* Delete targets with the trash icon (requires confirmation).
-
-3. ###  **Forecast Dashboard and Performance Tracking**
+### **3\. Forecast Dashboard and Performance Tracking**
 
 **Purpose:** Provide real-time visibility into forecast achievement, pipeline health, and period-over-period performance.
 
-![alt text](media/image-22.png)
+#### **Accessing the Forecast Dashboard**
 
-1. #### **Accessing the Forecast Dashboard**
+* Click **Forecast** from the main left sidebar.
 
-* Click on **Forecast** from the main left sidebar (indicated by the chart icon).  
-* The forecast view opens with comprehensive performance metrics and filtering options.
+![forecast](media/forecast/image-5.png)
 
-![alt text](media/image-23.png)
 
-2. **Top Navigation Bar:**  
-* **Forecast** tab – Active view for forecast metrics  
-* **All Users** dropdown – Filter by specific users  
-* **Current FY selected in**  dropdown – Select different fiscal year  
-  3. **Forecast Type Tabs:**  
-  * Toggle between  **Forecast** types  
-  * Each tab displays corresponding metrics and achievement data  
-    1. **Overview Row (Total \- 12 Periods):**  
-* **Target** – Total target amount   
-* **Achievement** – Visual progress bar showing:  
-  * Closed amount / Target amount  
-  * Percentage achieved   
-* **Gap** – Difference from target  
-* **Closed** – Total closed revenue   
-* **Commit Forecast** – Committed but not closed   
-* **Best Case** – Optimistic pipeline value  
-* **Open Pipeline** – Total open opportunities   
-  2. **Period-by-Period Breakdown:** Expandable rows for each month (e.g., January 2025, February 2025, March 2025, April 2025\) showing:  
-* **Period** column with expand/collapse chevron  
-* **Target** – Period-specific goal  
-* **Achievement** – Progress bar with ratio and percentage  
-* **Gap** – Variance from target with percentage  
-* **Closed**, **Commit Forecast**, **Best Case**, **Open Pipeline** – Individual metrics per period  
-  3. **Expanded Period Display (e.g., May 2025):**  
-* Shows overall period performance in the first row  
-* Lists individual team members with their contributions:  
-  * **User icon and name** Individual **Target** values  
-  * Personal **Achievement** metrics with progress bars  
-  * **Gap** calculations  
-  * **Closed**, **Commit Forecast**, **Best Case**, **Open Pipeline** values
+#### **Dashboard Filters**
 
-## **Conclusion**
+* **All Users** dropdown — filter the dashboard to a specific user.  
+* **Fiscal Year** selector — navigate between fiscal year instances using **Previous** and **Next** controls. Defaults to the *current active fiscal year*.  
+* **Forecast Type** tabs — toggle between configured forecast types; each tab shows its own metrics.
 
-The Horilla CRM Forecast Module provides a powerful framework for sales performance management through configurable forecast types, granular target setting, and comprehensive achievement tracking. By leveraging the visual dashboard, period-based analysis, and detailed user-level metrics, organizations can maintain clear visibility into sales performance, identify trends, and make informed decisions to drive revenue growth and operational excellence.
+#### **Dashboard Metrics**
+
+**Overview Row** *(Total — all periods):*
+
+* **Target**, **Achievement** *(progress bar with closed amount / target and percentage)*, **Gap**, **Closed**, **Commit Forecast**, **Best Case**, **Open Pipeline**.
+
+**Period-by-Period Breakdown:**
+
+* Each period *(e.g., January 2025, February 2025\)* is shown as an *expandable row*.  
+* Each row shows: **Target**, **Achievement**, **Gap**, **Closed**, **Commit Forecast**, **Best Case**, **Open Pipeline** for that period.
+
+**Expanded Period View:**
+
+![forecast](media/forecast/image-6.png)
+
+
+* Shows the period total in the first row.  
+* Lists each individual team member's contribution with their own **Target**, **Achievement**, **Gap**, **Closed**, **Commit Forecast**, **Best Case**, and **Open Pipeline** values.
+
+
+**Opportunity Detail Modal**
+
+![forecast](media/forecast/image-7.png)
+
+* Clicking any **Closed**, **Commit Forecast**, **Best Case**, or **Open Pipeline** value opens a modal popup listing the opportunities that make up that figure.
+* The modal is organised into four tabs: **Closed**, **Committed**, **Best Case**, and **Open Pipeline**.
+* Each tab displays the opportunity name and its amount (or quantity for quantity-based forecast types).
+* Clicking an opportunity name navigates directly to that opportunity's detail view.
+* This works at the **total row level**, at each **period row level**, and at the **individual user level** inside an expanded period.

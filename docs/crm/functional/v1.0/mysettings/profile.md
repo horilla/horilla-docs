@@ -1,9 +1,10 @@
-# **Horilla CRM User Profile Settings – Functional Guide**
+# **User Profile Settings – Functional Guide**
 
 ## **Introduction**
 
 The User Profile Settings Module in Horilla CRM provides users with comprehensive control over their personal information, work details, and system preferences. By offering a centralized interface for managing account details, localization settings, and contact information, it ensures users can maintain accurate profiles while customizing their system experience. Users can easily update their information, configure display preferences, and manage their professional details within the organization.
-![alt text](media/image.png)
+
+![profile](media/profile/image-1.png)
 
 ## **Key Features and Functionalities**
 
@@ -41,16 +42,35 @@ The User Profile Settings Module in Horilla CRM provides users with comprehensiv
 * Currency preference becomes default for financial reports and transaction displays.  
 * Date and time formats provide preview examples for user clarity (e.g., "Mon DD YYYY (Oct 25 2006)" and "HH:MM AM/PM (01:45 PM)").
 
-### **1.5 Profile Editing and Validation**
+#### **1.5 Profile Image**
 
-**Purpose:** Provide secure and user-friendly editing capabilities with comprehensive data validation.
+**Purpose:** Personalize the user account with a profile photo displayed across the CRM.
 
-![alt text](media/image-1.png)
+* The profile page displays the user's current profile image or a generated avatar if no image has been uploaded.
 
-* **Edit button** (pencil icon) enables inline editing of all profile sections.  
-* Real-time validation prevents invalid data entry and ensures required fields are completed.  
-* Save/Cancel functionality provides standard form controls with change confirmation.
+#### **1.6 Editing the Profile**
 
-## **Conclusion**
+* Click the **Edit icon (pencil)** at the top right of the profile page to open the edit form.  
+* Two form modes are available and can be switched between at any time:
 
-The User Profile Settings Module in Horilla CRM empowers users to maintain comprehensive and accurate personal profiles while customizing their system experience. With detailed information management, localization preferences, and secure editing capabilities, it enhances user satisfaction and system functionality while supporting organizational needs for accurate user data. By providing users with complete control over their profile information and display preferences, the module ensures optimal user experience and maintains data accuracy across the entire CRM system.
+  ##### **Multi-Step Form**
+
+Breaks the profile into focused steps:
+
+![profile](media/profile/image-2.png)
+
+* **Step 1 — Personal Information:** First Name, Last Name, Email, Contact Number  
+* **Step 2 — Address Information:** City, State, Country, ZIP Code  
+* **Step 3 — Work Information:** Company, Department, Role  
+* **Step 4 — Localization Information:** Language, Time Zone, Currency, Date Format, Time Format
+
+Use **Next** and **Previous** to navigate between steps. Click **Save** to apply changes.
+
+##### **Single-Step Form**
+
+![profile](media/profile/image-3.png)
+
+* Displays all profile fields on one page for faster editing.  
+* Click the **toggle** in the form header to switch to single-step mode.  
+* Click **Save** to apply changes or **Cancel** to discard.
+

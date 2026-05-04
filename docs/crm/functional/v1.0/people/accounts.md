@@ -1,12 +1,12 @@
-# **Horilla CRM Accounts – Functional Guide**
+# **Accounts – Functional Guide**
 
 ## **Introduction**
 
-The Horilla CRM Accounts Module is a critical feature engineered to simplify and enhance the administration of corporate entities within the CRM ecosystem. It offers a robust, streamlined, and accessible interface that empowers businesses to manage account details, oversee relationships across various stages, and optimize team performance. This module supports the organization of account data, tracks engagements, and ensures timely interactions to strengthen business connections, while seamlessly integrating with other tools for an efficient operational flow.
+The Horilla CRM Accounts Module serves as a centralized workspace for managing organizations, companies, and business entities associated with customers, prospects, and partners. It helps businesses organize account information, monitor relationships, track activities, and maintain a complete history of interactions. With multiple data views, structured forms, and integrated related records, the Accounts Module improves account management efficiency and strengthens customer relationship tracking across the CRM ecosystem.
 
 ## **Key Features and Functionalities**
 
-### **2.1 Accounts Overview**
+### **1.1 Accounts Overview**
 
 * **Purpose:** Showcase all accounts in a consolidated list format for straightforward management and visibility.  
 * Users can access the list by selecting the "Accounts" option under the "Sales" menu in the sidebar.  
@@ -14,62 +14,175 @@ The Horilla CRM Accounts Module is a critical feature engineered to simplify and
 * The layout includes adjustable columns and tailored filters to boost usability and productivity.  
 * Supports bulk handling of accounts in the list view by selecting multiple entries with checkboxes, offering actions like Edit, Export, and Mass Delete.
 
-![alt text](media/image.png)
+![alt text](media/accounts/image-1.png)
 
-### **2.2 Accounts Kanban Display**
+
+### **1.2  Kanban View**
 
 * **Purpose:** Deliver a visual layout of accounts grouped by their current relationship status.  
-* Users can customize the grouping by adjusting Kanban configurations to align with their preferences.  
-* Enables drag-and-drop functionality to effortlessly update account statuses.  
-* Aids in visually tracking the evolution of each account with clarity and ease.
 
-![alt text](media/image-1.png)
+![alt text](media/accounts/image-2.png)
 
-### **2.3 Creating a New Account**
+* Switch to **Kanban View** using the view toggle on the Accounts page.  
+* Accounts are grouped by relationship stages or configured categories.  
+* Kanban settings can be customized based on business requirements.  
+* Drag-and-drop functionality allows quick movement between stages.  
+* Helps monitor account progress and relationship status visually.
 
-* **Purpose:** Facilitate the addition of new accounts to kickstart relationship management.  
-* Press the "New" button on the accounts page to initiate a step-by-step form.  
-* Fill in core details (account owner, company name, industry, annual revenue, address) in the "Basic Information" step.  
-* Proceed with "Next" to include additional data (contact person, phone, website).  
-* Navigate between sections as needed using "Next" and "Previous" options.  
-* Complete the process by clicking "Save" to register the account details.
 
-![alt text](media/image-2.png)
 
-### **2.4 Account Detailed Information**
+## **1.3 Card View**
+
+**Purpose:** Present accounts in a compact, easy-to-scan format.
+
+![alt text](media/accounts/image-3.png)
+
+* Switch to **Card View** from the toolbar.  
+* Each card displays:  
+  * Company Name  
+  * Industry  
+  * Phone Number  
+  * Website  
+  * Annual Revenue  
+* Supports the same search and filter options as List View.  
+* Useful for quick browsing and account identification.
+
+
+## **1.4 Group By View**
+
+**Purpose:** Organize accounts into categorized groups for better analysis.
+
+![alt text](media/accounts/image-4.png)
+
+* Switch to **Group By View** from the toolbar.  
+* Group accounts by:  
+  * Industry  
+  * Account Owner  
+  * Account Type  
+  * Country  
+* View accounts in collapsible grouped sections.  
+* Helps identify industry concentration and ownership distribution.
+
+
+## **1.5 Chart View**
+
+**Purpose:** Visualize account data for reporting and analysis.
+
+![alt text](media/accounts/image-5.png)
+
+* Switch to **Chart View** from the toolbar.  
+* Displays graphical representations of:  
+  * Industry distribution  
+  * Account ownership  
+  * Revenue segmentation  
+* Helps analyze account trends and business distribution.  
+* Useful for management reporting and strategic planning.  
+    
+  
+
+## **1.6 Split View**
+
+**Purpose:** Improve efficiency by viewing account lists and details simultaneously.
+
+![alt text](media/accounts/image-6.png)
+
+* Activate **Split View** from the toolbar.  
+* Layout includes:  
+  * Left panel: Account list  
+  * Right panel: Account details  
+* Clicking an account loads details instantly without page navigation.  
+* Helps users quickly review and update account information.
+
+
+## **1.7 Timeline View**
+
+**Purpose:** Display accounts in chronological order for activity tracking.
+
+![alt text](media/accounts/image-7.png)
+
+* Switch to **Timeline View** from the toolbar.  
+* Organizes accounts based on:  
+  * Creation date  
+  * Last updated date  
+* Group rows by:  
+  * Industry  
+  * Account Owner  
+* Columns displayed:  
+  * Company Name  
+  * Industry  
+  * Website  
+  * Phone Number  
+  * Account Owner  
+* Helps identify account growth trends and activity periods.
+
+## **1.8 Creating a New Account**
+
+**Purpose:** Enable the addition of new accounts using structured forms.
+
+* Click **“New”** on the Accounts page to open the account creation form.  
+* The form supports two modes:  
+  * Multi-Step Form  
+  * Single-Step Form  
+* Users can switch between modes at any time.
+
+### **Multi-Step Form**
+
+**Purpose:** Guided and organized account creation process.
+
+![alt text](media/accounts/image-8.png)
+
+### **Step 1 – Basic Information**
+
+* Account Owner  
+* Company Name  
+* Industry  
+* Annual Revenue  
+* Website  
+* Phone Number
+
+
+### **Step 2 – Address Information**
+
+* City  
+* State  
+* Country  
+* Postal Code (Zip)
+
+### **Step 3 – Additional Information**
+
+* Parent Account  
+* Description / Notes  
+* Contact Details  
+* Additional Business Information
+
+### **Single-Step Form**
+
+**Purpose:** Faster account creation when all information is readily available.
+
+![alt text](media/accounts/image-9.png)
+
+### **Features**
+
+* Displays all account fields on a single page.  
+* No step-by-step navigation required.  
+* Faster data entry process.
+
+
+### **Usage**
+
+* Use the toggle option in the form header to switch to **Single-Step Mode**.  
+* Click **Save** to create the account record.
+
+### **1.4 Account Detailed Information**
 
 **Purpose:** Provide a comprehensive overview and control options for individual accounts.
 
-* **Accessing the Profile**
+* Open an account by clicking the account name from the Accounts list.  
+* Displays account details such as company name, industry, website, phone number, annual revenue, parent account, and address information.  
+* Tabs available for Details, Activity, Related Lists, and History.  
+* Fields can be updated directly from the detailed view using inline edit icons.  
+* Allows complete visibility into account relationships, activities, and business interactions.
 
-  * Click on an account’s name from the list or Kanban view to open its detailed profile.  
-  * The profile is organized into multiple tabs for easy navigation.
 
-* **Details Tab**
+![alt text](media/accounts/image-10.png)
 
-  * Each field can be edited individually without affecting other details.
-
-  * Supports inline editing for faster updates.
-
-* **Activity Tab**
-
-  * Provides a centralized place to log and track activities related to the account.  
-  * Users can add activities such as tasks, meetings, calls, and emails.
-
-* **Related Lists**
-
-  * Displays associated records for a complete 360° view of the account.  
-  * Includes:
-
-    * **Child Accounts** – sub-accounts linked to the parent account  
-    * **Related Contacts** – people connected with the account  
-    * **Opportunities** – deals or potential business linked with the account.  
-    * **Partners** – related partner accounts tied to the relationship.
-
-  * Allows quick navigation to related records and supports adding new related items directly from the related list section.
-
-* **History Tab**
-
-  * Tracks and displays changes made to the account over time.
-
-![alt text](media/image-3.png)

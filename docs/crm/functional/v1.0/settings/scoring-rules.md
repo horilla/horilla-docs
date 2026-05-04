@@ -1,4 +1,4 @@
-# **Horilla CRM Scoring Rules – Complete Functional Guide**
+# **Scoring Rules – Complete Functional Guide**
 
 ## **Introduction**
 
@@ -17,7 +17,7 @@ Navigate to: **Settings → Base → Scoring Rules**
 
 Displays all created scoring rules in a structured table.
 
-![alt text](media/image-27.png)
+![scoring rule](media/scoring_rule/image-1.png)
 
 **Columns:**
 
@@ -45,7 +45,7 @@ Displays all created scoring rules in a structured table.
 
 Click **New** to open the scoring rule creation form.
 
-![alt text](media/image-28.png)
+![scoring rule](media/scoring_rule/image-2.png)
 
 **Scoring Rule Form Fields:**
 
@@ -65,7 +65,7 @@ Once a scoring rule is created, administrators can define criteria that assign p
 
 Click on the rule to access **Rule Detail View**, then click **New** to add criteria.
 
-![alt text](media/image-29.png)
+![scoring rule](media/scoring_rule/image-3.png)
 
 **Rule Criteria Form Fields:**
 
@@ -90,7 +90,7 @@ Admins can add multiple conditions by clicking **\+ Add More**.
 
 Clicking on a scoring rule opens a detailed view with structured sections:
 
-![alt text](media/image-30.png)
+![scoring rule](media/scoring_rule/image-4.png)
 
 * **Rule Information**: Rule name, module, status, and description.
 
@@ -114,7 +114,4 @@ Clicking on a scoring rule opens a detailed view with structured sections:
 
 * **Data-Driven Decisions**: Rank and filter leads/opportunities objectively.
 
-## **Summary**
-
-The **Scoring Rules** module in Horilla CRM provides a powerful and flexible framework to automate lead and opportunity qualification. With configurable conditions, point assignments, and rule management, organizations can align sales efforts with strategic priorities and boost conversion rates.
 

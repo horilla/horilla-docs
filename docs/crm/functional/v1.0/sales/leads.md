@@ -1,56 +1,198 @@
-# **Horilla CRM Leads – Functional Guide**
+# **Leads – Functional Guide**
 
-## **Introduction**
+1. ## **Introduction**
 
-The Horilla CRM Leads Module is a crucial component designed to automate and streamline the management and conversion of potential customer leads. It offers a secure, efficient, and user-friendly system that helps businesses track lead details, monitor their progress through various stages, and enhance sales team productivity. The module facilitates lead organization, interaction tracking, and timely follow-ups to convert prospects into opportunities, while also supporting integration with other business tools for a seamless workflow.
+The Leads module in Horilla CRM is designed to simplify and optimize the process of managing potential customers. It provides a structured and efficient way to capture, track, and convert leads into business opportunities.
 
-## **Key Features and Functionalities**
+With a user-friendly interface and powerful features, the module helps teams organize lead information, monitor progress across different stages, and ensure timely follow-ups. By centralizing lead data and supporting integration with other business tools, it enhances productivity and enables a seamless sales workflow.
 
-### **2.1 Leads Overview**
+2. ## **Key Features and Functionalities**
 
-* **Purpose:** Display all leads in a centralized list view for easy access and management.  
-* Users can navigate to the "Sales" section in the sidebar and select "Leads" to view the list.  
-* Includes search and filter options to quickly locate specific leads based on criteria like name or lead source.  
-* The interface features sortable columns and customizable filters to enhance usability and efficiency.  
-* Enable bulk management of leads from the list view by selecting one or more opportunities using the checkboxes, with available actions including Update, Export and Bulk Delete.
+   1. ### **Leads Overview**
 
-![Leads](media/image.png){.full-width}
+**Purpose:** Provide a centralized view of all leads for efficient management.
 
-### **2.2 Leads Kanban Display**
+![Leads](media/leads/image-1.png)
 
-* **Purpose:** Provide a visual representation of leads categorized by their current stage.  
-* Users can decide the categorization by changing Kanban settings to suit their preferences.  
-* Supports drag-and-drop functionality to update lead statuses seamlessly.  
-* Helps in tracking the progress of each lead efficiently and visually.
+* Navigate to **Sales → Leads** to access the leads list.  
+* View all leads in a structured tabular format.  
+* Use **search and filters** to quickly locate leads based on criteria such as name or lead source.  
+* Columns are **sortable**, and filters are customizable for better usability.  
+* Perform **bulk actions** by selecting leads using checkboxes:  
+  * Update  
+  * Export  
+  * Bulk Delete
 
-![Leads](media/image-1.png)
+  2. ### **Kanban View**
 
-### **2.3 Creating a New Lead**
+**Purpose:** Offer a visual representation of leads based on their stages.
 
-* **Purpose:** Enable the creation of new leads to initiate the tracking process.  
-* Click the "New" button on the leads page to open a multi-step form.  
-* Enter basic details (lead owner, name, email, lead source, industry) in the "Basic Information" step.  
-* Use "Next" to input company details (title, contact number, lead currency).  
-* Navigate to "Location" and "Requirements" sections as needed with "Next" and "Previous" options.  
-* Click "Save" to submit and store the lead information.
+![Leads](media/leads/image-2.png)
 
-![Leads](media/image-2.png)
+* View leads organized into columns representing different stages.  
+* Customize stage categorization through Kanban settings.  
+* Use **drag-and-drop** to move leads between stages.  
+* Easily track progress and pipeline movement.
 
-### **2.4 Lead Detailed Information**
+  3. ### **Card View**
 
-* **Purpose:** Offer comprehensive details and management options for each lead.  
-* Clicking a lead’s title from the list or Kanban view opens the detailed view.  
-* Includes related lists, activities, and history for a complete overview.  
-* Users can convert a lead into an account, contact, and opportunity by clicking the final stage in the progress bar.
+**Purpose:** Present leads in a compact, easy-to-scan format.
 
-![Leads](media/image-3.png)
+![Leads](media/leads/image-3.png)
 
-### **2.5 Lead Conversion Process**
+* Switch to Card View from the toolbar.  
+* Each card displays key details:  
+  * Name  
+  * Lead Source  
+  * Stage  
+  * Lead Owner  
+* Supports the same **search and filter** options as List View.
 
-* **Purpose:** Facilitate the transformation of a lead into actionable business entities.  
-* Access the lead detail view and navigate to the final stage in the progress bar.  
-* Select options to create a new account, contact, or opportunity during conversion.  
-* The form includes fields for account name, contact details (first name, last name), and opportunity name.  
-* Click "Convert" to finalize the process, linking the lead to the new entities.
+  4. ### **Group By View**
 
-![Leads](media/image-4.png)
+**Purpose:** Organize leads into categorized groups for better analysis.
+
+![Leads](media/leads/image-4.png)
+
+* Switch to Group By View from the toolbar.  
+* Group leads by fields such as:  
+  * Lead Stage  
+  * Lead Source  
+  * Lead Owner  
+  * Industry  
+* View leads in **collapsible sections** for easier comparison.  
+* Helps identify trends, concentrations, and gaps.
+
+  5. ### **Chart View**
+
+**Purpose:** Visualize lead data for insights and reporting.
+
+![Leads](media/leads/image-5.png)
+
+* Switch to Chart View from the toolbar.  
+* Displays graphical representations of:  
+  * Lead stages  
+  * Lead sources  
+  * Lead ownership  
+* Useful for analyzing pipeline health and trends.
+
+  6. ### **Split View**
+
+**Purpose:** Improve efficiency by viewing lists and details simultaneously.
+
+![Leads](media/leads/image-6.png)
+
+* Activate Split View from the toolbar.  
+* Left panel: Lead list  
+* Right panel: Lead details  
+* Clicking a lead instantly loads its details without page navigation.
+
+  7. ### **Timeline View**
+
+**Purpose:** Display leads in chronological order.
+
+![Leads](media/leads/image-7.png)
+
+* Switch to Timeline View from the toolbar.  
+* Organizes leads based on:  
+  * Creation date  
+  * Activity date  
+* Helps identify activity trends and peak periods.
+
+---
+
+8. ### **Creating a New Lead**
+
+**Purpose:** Capture and store new lead information.
+
+* Click the **“New”** button on the Leads page to open the lead creation form.  
+* The form supports two modes, which can be switched at any time:
+
+  #### **Multi-Step Form**
+
+Designed for guided and structured data entry by dividing the form into multiple steps:
+
+![Leads](media/leads/image-8.png)
+
+* **Step 1 — Basic Information**  
+  * Lead Owner  
+  * Name  
+  * Email  
+  * Lead Source  
+  * Industry  
+* **Step 2 — Company Details**  
+  * Title  
+  * Contact Number  
+  * Lead Currency  
+* **Step 3 — Location**  
+* **Step 4 — Requirements**  
+* Use **Next** and **Previous** to move between steps.  
+* Click **Save** to create the lead.
+
+
+  #### **Single-Step Form**
+
+Designed for quick data entry when all information is readily available:
+
+![Leads](media/leads/image-9.png)
+
+* Displays all lead fields on a single page.  
+* Allows faster input without step navigation.  
+* Use the **toggle option in the form header** to switch to Single-Step mode.  
+* Click **Save** to create the lead.
+
+  9. **Lead Detailed Information**
+
+**Purpose:** Provide a complete view and management interface for each lead.
+
+![Leads](media/leads/image-10.png)
+
+* Open by clicking a lead from any view.  
+* Includes:  
+  * Related lists  
+  * Activities  
+  * Notes  
+  * Attachments  
+  * History  
+* Allows direct lead conversion through the progress bar.
+
+  10. ### **Lead Conversion Process**
+
+**Purpose:** Convert leads into actionable business entities such as Accounts, Contacts, and Opportunities.
+
+**From the Detail View**
+
+* Open the **Lead Detail View**.
+
+* Click the **final stage** in the progress bar to initiate the conversion process.
+
+**From the Actions Menu (List / Card / Kanban / Group by views)**
+
+* Click the **Actions** menu.
+
+* Choose **Convert**.
+
+#### **Conversion Form**
+
+![Leads](media/leads/image-11.png)
+
+**Choose the entities to create**:
+
+*  **Account**
+
+* **Contact**
+
+* **Opportunity**
+
+**Provide the required details:**
+
+* **Account Name**
+
+* **Contact First Name & Last Name**
+
+* **Opportunity Name**
+
+Click **Convert** to complete the process.
+
+### 
+

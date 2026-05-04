@@ -1,4 +1,4 @@
-# **Horilla CRM Short Keys – Functional Guide**
+# **Short Keys – Functional Guide**
 
 ## **Introduction**
 
@@ -6,7 +6,7 @@ The **Short Keys Module** in **Horilla CRM** enhances user efficiency by enablin
 
 By supporting both **predefined system shortcuts** and **user-defined shortcuts**, Horilla ensures that every user can tailor their workspace for faster access and improved productivity.
 
-![alt text](media/image-10.png)
+![alt text](media/short_keys/image-1.png)
 
 ## **Key Features and Functionalities**
 
@@ -35,9 +35,4 @@ By supporting both **predefined system shortcuts** and **user-defined shortcuts*
 * **Functionality:** By holding a command key (e.g., ALT) for 2-3 seconds, a pop-up window appears, listing all currently available shortcuts tailored to the user’s operating system and existing configurations.  
 * **Benefit:** This interactive feature promotes ease of use, reduces the learning curve, and encourages users to fully leverage the shortcut system.
 
-![alt text](media/image-11.png)
-
-## **Conclusion**
-
-The **Shortcut Keys Module** in Horilla CRM transforms user productivity by providing a flexible, intuitive, and powerful keyboard navigation system. With predefined shortcuts for instant usability, full customization capabilities, intelligent cross-platform support, and an innovative quick-access overlay, users can work faster and more efficiently. Whether you're a new user getting started or a power user optimizing your workflow, the Shortcut Keys feature adapts to your needs while maintaining simplicity and control.
-
+![alt text](media/short_keys/image-2.png)

@@ -1,114 +1,105 @@
-# **Horilla CRM Reports – Functional Guide**
+# **Reports – Functional Guide**
 
 ## **Introduction**
 
-The **Horilla CRM Reports Module** provides a structured and intuitive way to generate, organize, and analyze CRM data. Designed for sales teams, managers, and administrators, the module enables users to create detailed reports, group them into folders, and leverage pivot tables and charts for advanced insights. With customizable columns, filters, and grouping options, users can extract meaningful patterns from CRM records and visualize data through interactive reports. The module supports both operational and analytical needs, helping organizations make data-driven decisions.
+The Horilla CRM Reports Module provides a structured and intuitive way to generate, organize, and analyze CRM data. Designed for sales teams, managers, and administrators, the module enables users to create detailed reports, group them into folders, and leverage pivot tables and charts for advanced insights. With customizable columns, filters, grouping options, and aggregate functions, users can extract meaningful patterns from CRM records and visualize data through interactive reports.
 
 ## **Key Features and Functionalities**
 
-### **1\. Report List View**
+#### **1\. Report List View**
 
-**Purpose:** Allows users to view, manage, and organize reports across different CRM modules.
+**Purpose:** View, manage, and organize all reports across CRM modules.
 
-* **View All Reports:** Users can access all available reports in the system.  
-* **Mark as Favorite:** Quickly mark reports as favorites for easier access  
-* **Delete Reports:** Remove reports that are no longer needed.  
+* View all reports in a consolidated list.  
+* Mark reports as **Favorites** for quick access.  
+* Delete reports no longer needed.
 
-![alt text](media/image.png)
+![reports](media/reports/image-1.png)
 
-### **2\. Folder Organization System**
+#### **2\. Folder Organization**
 
-**Purpose:** Provides a structured way to organize reports for easy access.
+**Purpose:** Provide a structured way to organize reports for easy access.
 
-* **Create Multiple Folders:** Group related reports under folders (e.g., Leads Reports, Opportunity Reports).  
-* **Folder Naming:** Assign meaningful names for better categorization.  
-* **Edit & Delete Folders:** Update folder names or remove folders when no longer needed.  
-* **Favorites:** Mark folders as favorites for quick access.
+* Create multiple folders to group related reports (e.g., Leads Reports, Opportunity Reports).  
+* Edit folder names or delete folders when no longer needed.  
+* Move folders between parent folders for deeper organization.  
+* Mark folders as **Favorites** for quick sidebar access.
 
-![alt text](media/image-1.png)
+![reports](media/reports/image-2.png)
 
-### **3\. Favorites Management**
+#### **3\. Favorites Management**
 
-**Purpose:** Provides quick access to frequently used reports and folders.
+**Purpose:** Provide quick access to frequently used reports and folders.
 
-* **Favorite Any Report/Folder:** Mark with a star icon for easier navigation.  
-* **Favorites Section in Sidebar:** Access favorited reports and folders directly from the sidebar.  
-* **Visual Indicators:** Star icons highlight favorite items in the listing.
+* Mark any report or folder as a favorite using the **star icon**.  
+* Favorited items appear in the **Favorites** section in the sidebar.
 
-![alt text](media/image-2.png)
+![reports](media/reports/image-3.png)
 
-### **4\. Creating a Report**
+#### **4\. Default Reports**
 
-**Purpose:** Enable users to build new reports easily.
+**Purpose:** Quickly load pre-built reports provided by installed CRM modules without building from scratch.
 
-* Use the **New Report** button to create a report. ![alt text](media/image-3.png) 
-* Fill in fields such as **name, module, folder, and columns**, then save. ![alt text](media/image-4.png)
+* Click **Load Default Reports** to open a modal listing all available default reports across installed modules.  
+* Select the reports you want and click **Create** to generate them instantly.  
+* Default reports come pre-configured with relevant columns, groupings, and filters for their module.
 
+![reports](media/reports/image-4.png)
 
-### 
+#### **5\. Creating a Report**
 
-### **5\. Report Detail View**
+**Purpose:** Build new custom reports from any CRM module.
 
-**Purpose:** Provides detailed insights and interactive data exploration.
+* Click the **New Report** button.  
+* Fill in **Name**, **Module**, **Folder**, and **Columns**, then save.
 
-* **Detail Table:** Displays record-level details with selected columns. ![alt text](media/image-5.png)
+![reports](media/reports/image-5.png)
 
-* **Pivot Table:** Summarizes data by grouping and aggregating values. Clicking a pivot value filters the data and displays related details in the detail table.  ![alt text](media/image-6.png)
+#### **6\. Report Detail View**
 
-* **Report Chart:**
+**Purpose:** Provide detailed insights and interactive data exploration.
 
-  * Enhances visualization and provides quick analytical insights.  
-  * **Available Chart Types:** Pie chart, bar chart, line chart, etc. (based on configuration).  
-  * **Dynamic Data Display:** Updates automatically with selected filters and groupings.  
-  * **Interactive Legend:** Breaks down categories such as New, Contacted, Qualified, Proposal, Lost, Won.  
-  * **Record Count Indicator:** Shows the total number of records included in the chart.  
-  * **Download Options:** Export charts as **PNG** or **PDF**.
+* **Detail Table** — Displays record-level data with selected columns. Supports aggregate functions (Sum, Count, Average, Min, Max) per column.  
 
-![alt text](media/image-7.png)
+ ![reports](media/reports/image-6.png)
 
+* **Pivot Table** — Summarizes data by grouping rows and columns with aggregated values. Clicking a pivot value filters the detail table to show only the related records.
 
-### **6\. Report Edit View**
+![reports](media/reports/image-7.png)
 
-![alt text](media/image-8.png)
+* **Report Chart:**  
+  * Visualizes report data as Pie, Bar, Line, or other chart types.  
+  * Chart type and the field used for the chart axis are configurable directly from the detail view.  
+  * Updates dynamically based on active filters and groupings.  
+  * Interactive legend for category breakdown.  
+  * Shows total record count.  
+  * Export chart as PNG or PDF.
 
-**Purpose:** Allows users to modify report configuration.
+![reports](media/reports/image-8.png)
 
-* The edit view contains **three tabs**:
+#### **7\. Report Edit View**
 
-  1. **Columns:** Add or remove columns in the detail table.  
-  2. **Grouping:** Add or remove fields for pivot table grouping (maximum of 3 fields).  
-  3. **Filter:** Define filter conditions for report data.
+**Purpose:** Modify report configuration after creation.
 
-* Save or discard changes as needed.
+![reports](media/reports/image-9.png)
 
-### **7\. Report Actions & Export**
+The edit view contains three tabs:
 
-![alt text](media/image-9.png)
+1. **Columns** — Add, remove, or reorder columns in the detail table. Toggle aggregate functions per column.  
+2. **Grouping** — Add or remove fields for pivot table row and column grouping (maximum 3 fields).  
+3. **Filter** — Define filter conditions with field, operator, value, and AND/OR logic.
 
-**Purpose:** Provides flexibility for sharing and managing reports outside the CRM.
+Save or discard changes as needed.
 
-* **Export Options:** Export tables as **CSV** or **Excel**.  
-* **Delete Report:** Remove outdated or unnecessary reports.  
-* **Favorite Report:** Mark important reports for quick access via the sidebar.  
-* **Move Report:** Transfer reports between folders.  
-* **Edit Report Name:** Update report titles for clarity.
+#### **8\. Report Actions & Export**
 
-## 
+**Purpose:** Share and manage reports outside the CRM.
 
-## **Benefits**
+![reports](media/reports/image-10.png)
 
-* **Centralized Reporting:** Single interface to manage and analyze CRM data.
+* **Delete** — Remove outdated or unnecessary reports.  
+* **Favorite** — Mark important reports for quick sidebar access.  
+* **Move Report** — Transfer a report to a different folder.  
+* **Move Folder** — Transfer a folder to a different parent folder.  
+* **Edit Report Name** — Rename a report for clarity.
 
-* **Customizable Insights:** Flexible column, filter, and grouping options.
-
-* **Efficient Organization:** Folder-based structure for streamlined report management.
-
-* **Quick Access:** Favorites and sidebar navigation improve efficiency.
-
-* **Visual Analytics:** Charts and pivot tables highlight trends at a glance.
-
-* **Scalable Management:** Supports multiple reports and folders for growing business needs.
-
-* **Export-Friendly:** Seamlessly share data with external stakeholders.
-
-* **User-Friendly UI:** Simplified navigation with actionable icons for managing reports and folders.

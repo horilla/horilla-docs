@@ -84,8 +84,8 @@
         link: "/crm/functional/v1.0/settings/users",
       },
        {
-        text: "Groups and Permissions",
-        link: "/crm/functional/v1.0/settings/groups-permissions",
+        text: "Roles and Permissions",
+        link: "/crm/functional/v1.0/settings/roles-permissions",
       },
       {
         text: "Branches & Department",
@@ -100,7 +100,7 @@
         link: "/crm/functional/v1.0/settings/scoring-rules",
       },
       {
-        text: "Lead Stage and Opportunity Stage ",
+        text: "Lead Stage & Opportunity Stage ",
         link: "/crm/functional/v1.0/settings/lead-stage-&-opportunity-stage",
       },
       {
@@ -127,6 +127,54 @@
         text: "Mail Template",
         link: "/crm/functional/v1.0/settings/mail-template",
       },
+      {
+        text: "Mail & Notification",
+        link: "/crm/functional/v1.0/settings/mail-&-notification",
+      },
+        {
+        text: "Notification Template",
+        link: "/crm/functional/v1.0/settings/notification-template",
+      },
+      {
+        text: "Duplicate Control",
+        link: "/crm/functional/v1.0/settings/duplicate-control",
+      },
+       {
+        text: "Color Theme",
+        link: "/crm/functional/v1.0/settings/colour-theme",
+      },
+      {
+        text: "Approval Processes",
+        link: "/crm/functional/v1.0/settings/approval-process",
+      },
+      {
+        text: "Review Processes",
+        link: "/crm/functional/v1.0/settings/review-process",
+      },
+      {
+        text: "Cadences",
+        link: "/crm/functional/v1.0/settings/cadences",
+      },
+      {
+        text: "Mail to Lead",
+        link: "/crm/functional/v1.0/settings/mail-to-lead",
+      },
+      {
+        text: "Web to Lead",
+        link: "/crm/functional/v1.0/settings/web-to-lead",
+      },
+      {
+        text: "Big Deal Alert",
+        link: "/crm/functional/v1.0/settings/big-deal-alert",
+      },
+      {
+        text: "Opportunity teams & Splits",
+        link: "/crm/functional/v1.0/settings/opportunity-teams-split",
+      },
+      {
+        text: "Version Info",
+        link: "/crm/functional/v1.0/settings/version-info",
+      },
     ],
   },
   {
@@ -149,6 +197,10 @@
       {
         text: "Oppotunity Teams",
         link: "/crm/functional/v1.0/mysettings/oppotunity-teams",
+      },
+       {
+        text: "Google Calendar",
+        link: "/crm/functional/v1.0/mysettings/google-calendar",
       },
       {
         text: "Short Keys",

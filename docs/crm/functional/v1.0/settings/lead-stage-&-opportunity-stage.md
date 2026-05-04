@@ -1,4 +1,4 @@
-# **Horilla CRM Lead & Opportunity Stages – Functional Guide**
+# **Lead & Opportunity Stages – Functional Guide**
 
 ## **Introduction**
 
@@ -26,7 +26,7 @@ Each section provides a list view of existing stages and the ability to add, edi
 
 ### **Lead Stage List View**
 
-![alt text](media/image-31.png)
+![lead stage](media/lead_opportunity_stage/image-1.png)
 
 The list displays all configured lead stages with the following columns:
 
@@ -44,7 +44,7 @@ The list displays all configured lead stages with the following columns:
 
 Click **New** → Fill in the following fields:
 
-![alt text](media/image-32.png)
+![lead stage](media/lead_opportunity_stage/image-2.png)
 
 * **Status Name** – Enter the lead stage name (e.g., New, Contacted).
 
@@ -64,9 +64,10 @@ Click **New** → Fill in the following fields:
 
 ### **Opportunity Stage List View**
 
-![alt text](media/image-33.png)
-
 The list displays all configured opportunity stages with the following columns:
+
+![opportunity stage](media/lead_opportunity_stage/image-3.png)
+
 
 * **Order** (drag-and-drop reordering)
 
@@ -84,7 +85,7 @@ The list displays all configured opportunity stages with the following columns:
 
 Click **New** → Fill in the following fields:
 
-![alt text](media/image-34.png)
+![opportunity stage](media/lead_opportunity_stage/image-4.png)
 
 * **Stage Name** – Enter the opportunity stage name (e.g., Prospecting, Negotiation).
 

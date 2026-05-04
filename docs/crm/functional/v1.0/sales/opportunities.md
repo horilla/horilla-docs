@@ -1,47 +1,146 @@
-# **Horilla CRM Opportunities – Functional Guide**
+# **Opportunities – Functional Guide**
 
 ## **Introduction**
 
-The Horilla CRM Opportunities Module serves as a vital tool crafted to automate and simplify the oversight and transformation of sales opportunities. It delivers a protected, streamlined, and intuitive platform that allows companies to monitor opportunity specifics, follow their journey across different sales phases, and elevate the efficiency of their sales teams. The module supports the structuring of opportunities, tracks interactions, and ensures prompt follow-ups to turn prospects into finalized deals, while also enabling integration with other business systems for a cohesive workflow.
+The Opportunities module in Horilla CRM is designed to simplify and optimize the management of active sales deals. It provides a structured and efficient way to track opportunities through pipeline stages, monitor progress, and close deals. With a user-friendly interface and powerful features, the module helps teams organize deal information, manage related contacts and activities, and ensure timely follow-ups — enabling a seamless sales workflow from prospect to close.
 
 ## **Key Features and Functionalities**
 
-### **1.1 Opportunities Overview**
+### **Opportunities Overview**
 
-* **Purpose:** Present all opportunities in a unified list view for convenient access and control.  
-* Users can access the list by navigating to the "Sales" section in the sidebar and choosing "Opportunities."  
-* Offers search and filter capabilities to swiftly identify specific opportunities based on factors like name or stage.  
-* The interface includes sortable columns and adjustable filters to improve user experience and effectiveness.  
-* Facilitates bulk management of opportunities in the list view by selecting multiple opportunities via checkboxes, offering options such as Update, Export, and Bulk Delete.
-* 
-![alt text](media/image-9.png)
+**Purpose:** Provide a centralized view of all opportunities for efficient management.
 
-### **1.2 Opportunities Kanban Display**
+**Access:** Sales → Opportunities
 
-* **Purpose:** Offer a graphical depiction of opportunities organized by their current sales phase.  
-* Users have the flexibility to adjust categorization through customizable Kanban settings to match their needs.  
-* Features drag-and-drop functionality for smooth updates to opportunity statuses.  
-* Assists in effectively and visually monitoring the advancement of each opportunity.  
-    
-![alt text](media/image-10.png)
+![opportunities](media/opportunities/image-1.png)
+
+* View all opportunities in a structured tabular format.  
+* Use search and filters to quickly locate opportunities based on criteria such as name, stage, or owner.  
+* Columns are sortable and filters are customizable for better usability.  
+* Perform bulk actions by selecting opportunities using checkboxes: **Update**, **Export**, **Bulk Delete**.
+
+### **Kanban View**
+
+**Purpose:** Offer a visual representation of opportunities organized by their current sales stage.
+
+![opportunities](media/opportunities/image-2.png)
 
 
-### **1.3 Creating a New Opportunity**
+* View opportunities organized into columns representing different stages.  
+* Customize stage categorization through Kanban settings.  
+* Use drag-and-drop to move opportunities between stages.  
+* Easily track pipeline progress and movement.
 
-* **Purpose:** Allow the initiation of new opportunities to begin the sales tracking process.  
-* Select the "New" button on the opportunities page to launch a multi-step form.  
-* Input initial details (opportunity owner, name, account, amount, expected close date) in the "Basic Information" step.  
-* Proceed with "Next" to add further details (stage, probability, lead source).  
-* Move to "Description" sections as required using "Next" and "Previous" options.  
-* Finalize by clicking "Save" to submit and save the opportunity data.
+### **Card View**
 
-![alt text](media/image-11.png)
+**Purpose:** Present opportunities in a compact, easy-to-scan format.
 
-### **1.4 Opportunity Detailed Information**
+* Switch to Card View from the toolbar.  
+* Each card displays key details: Name, Stage, Amount, Owner.  
+* Supports the same search and filter options as List View.
 
-* **Purpose:** Provide an in-depth view and management capabilities for individual opportunities.  
-* Accessing the detailed view is possible by clicking an opportunity’s title from either the list or Kanban view.  
-* Encompasses related lists, activities, and history for a thorough understanding.  
-* Allows users to modify the opportunity stage or finalize it by selecting the last stage in the progress bar.  
+![opportunities](media/opportunities/image-3.png)
 
-![alt text](media/image-12.png)
+
+### **Group By View**
+
+**Purpose:** Organize opportunities into categorized groups for better analysis.
+
+* Switch to Group By View from the toolbar.  
+* Group opportunities by fields such as Stage, Owner, Lead Source, Account.  
+* View opportunities in collapsible sections for easier comparison.  
+* Helps identify trends, concentrations, and gaps across categories.
+
+![opportunities](media/opportunities/image-4.png)
+
+
+### **Chart View**
+
+**Purpose:** Visualize opportunity data for insights and reporting.
+
+![opportunities](media/opportunities/image-5.png)
+
+
+* Switch to Chart View from the toolbar.  
+* Displays graphical representations of opportunity stages, sources, and ownership.  
+* Useful for analyzing pipeline health and deal distribution trends.
+
+### **Split View**
+
+**Purpose:** Improve efficiency by viewing list and details simultaneously.
+
+![opportunities](media/opportunities/image-6.png)
+
+* Activate Split View from the toolbar.  
+* Left panel: Opportunity list.  
+* Right panel: Opportunity details.  
+* Clicking an opportunity instantly loads its details without page navigation.
+
+### **Timeline View**
+
+**Purpose:** Display opportunities in chronological order.
+
+![opportunities](media/opportunities/image-7.png)
+
+
+* Switch to Timeline View from the toolbar.  
+* Organizes opportunities based on creation or activity dates.  
+* Helps identify activity trends and peak sales periods.
+
+### **Creating a New Opportunity**
+
+**Purpose:** Capture and store new opportunity information.
+
+Click the **New** button on the Opportunities page to open the creation form. The form supports two modes, which can be switched at any time:
+
+##### **Multi-Step Form**
+
+Designed for guided and structured data entry divided into steps:
+
+![opportunities](media/opportunities/image-8.png)
+
+
+* **Step 1 — Opportunity Information:** Owner, Name, Account, Amount, Expected Close Date, Stage  
+* **Step 2 — Additional Information:** Probability, Lead Source, Campaign  
+* **Step 3 — Description**
+
+Use **Next** and **Previous** to move between steps. Click **Save** to create the opportunity.
+
+#### **Single-Step Form**
+
+Designed for quick data entry when all information is readily available:
+
+![opportunities](media/opportunities/image-9.png)
+
+
+* Displays all opportunity fields on a single page.  
+* Allows faster input without step navigation.  
+* Use the **toggle** in the form header to switch to Single-Step mode.  
+* Click **Save** to create the opportunity.
+
+### **Opportunity Detailed Information**
+
+**Purpose:** Provide a complete view and management interface for each opportunity.
+
+![opportunities](media/opportunities/image-10.png)
+
+Open by clicking an opportunity from any view. Includes:
+
+* Related lists (Contacts with roles, opportunity team,opportunity splits)  
+* Activities  
+* Cadences  
+* Notes and attachments  
+* History
+
+### **Closing an Opportunity**
+
+**Purpose:** Mark an opportunity as won or lost when it reaches the final stage.
+
+![opportunities](media/opportunities/image-11.png)
+
+* Click the final stage in the progress bar on the opportunity detail view.  
+* A selection modal appears with two options:  
+  * **Closed Won** — marks the deal as successfully closed.  
+  * **Closed Lost** — marks the deal as lost.  
+* Select the appropriate outcome to finalize the opportunity.
+

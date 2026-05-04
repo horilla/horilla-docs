@@ -1,4 +1,4 @@
-# **Horilla CRM Opportunity Teams – Complete Functional Guide**
+# **Opportunity Teams – Complete Functional Guide**
 
 ## **Introduction**
 
@@ -12,6 +12,8 @@ Opportunity Teams support role-based access control, allowing different team mem
 
 Navigate to: **Settings → My Settings → Opportunity Team**
 
+ * The Opportunity Teams module is only accessible when Team Selling is enabled for the company.
+
 Here, each user with appropriate permissions can view, create, and manage their own opportunity teams independently. Users can only see and manage teams they have created, ensuring personal workspace organization and data privacy.
 
 ### **1\. Opportunity Teams Overview**
@@ -21,7 +23,7 @@ The main Opportunity Teams page displays the current state of team management:
 * **Empty State**: When no teams exist, users see a helpful illustration with the message "Nothing to show yet. Please add your Opportunity Teams."  
 * **Call-to-Action**: **Add New** button prominently displayed for easy team creation.
 
-![alt text](media/image-4.png)
+![opportunity team](media/opportunity_team/image-1.png)
 
 ### **2\. Create New Opportunity Team**
 
@@ -29,7 +31,7 @@ Click **New** or **Add New** to open the opportunity team creation form.
 
 #### **Team Creation Form Fields:**
 
-![alt text](media/image-5.png)
+![opportunity team](media/opportunity_team/image-2.png)
 
 **Basic Information:**
 
@@ -49,7 +51,8 @@ After configuring team details → click **Save**.
 
 Once teams are created, the interface displays:
 
-![alt text](media/image-6.png)
+![opportunity team](media/opportunity_team/image-3.png)
+
 
 #### **Team List Table with Columns:**
 
@@ -66,13 +69,18 @@ Once teams are created, the interface displays:
 
 Clicking on a team name opens the detailed team management page:
 
-![alt text](media/image-7.png)
+![opportunity team](media/opportunity_team/image-4.png)
 
 #### **Team Information Section:**
 
 * **Team Header**: Displays team name with back navigation  
 * **Search Function**: Find specific team members quickly  
-* **New Button**: Add additional members to existing teams
+
+##### **New Button** 
+*  Add additional members to the team directly from the team detail view — opens the member creation form to select a user, assign a role, and set access level.
+
+
+![opportunity team](media/opportunity_team/image-5.png)
 
 #### **Team Member Table:**
 
@@ -86,21 +94,3 @@ Clicking on a team name opens the detailed team management page:
 * **Edit Member**  Modify member roles or access levels  
 * **Remove Member** Remove team members when necessary
 
-
-## **Benefits**
-
-**Enhanced Collaboration**: Organize sales teams effectively around specific opportunities or market segments.
-
-**Role-Based Security**: Ensure appropriate access levels while maintaining data security and compliance.
-
-**Accountability**: Clear role assignments help track responsibility and performance across team members.
-
-**Scalable Structure**: Easily add or remove team members as business needs change.
-
-**Streamlined Communication**: Centralized team management improves coordination and reduces miscommunication.
-
-**Flexible Access Control**: Granular permission settings accommodate various organizational structures and security requirements.
-
-## **Summary**
-
-The Opportunity Teams module in Horilla CRM provides a comprehensive framework for organizing and managing collaborative sales efforts. With flexible team creation, role-based access control, and intuitive member management, organizations can ensure that opportunities are handled by well-coordinated teams with appropriate permissions and clear accountability. This structured approach to team management ultimately leads to improved sales performance and better customer relationship management.
