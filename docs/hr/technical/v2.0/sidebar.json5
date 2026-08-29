@@ -25,6 +25,9 @@
             {
                 text: 'Fail2Ban', link: "/hr/technical/v2.0/fail2ban"
             },
+            {
+                text: 'Installation Intelligence', link: "/hr/technical/v2.0/installation-intelligence"
+            },
         ]
     },
     {
