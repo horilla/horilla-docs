@@ -102,6 +102,9 @@
             {
                 text: 'LDAP', link: '/technical/v2.0/doc/integrations/ldap/ldap'
             },
+            {
+                text: 'Vercel Web Analytics', link: '/hr/technical/v2.0/doc/integrations/vercel-web-analytics'
+            },
         ]
     },
     {
