@@ -16,6 +16,9 @@ const hrTechnicalSidebarv2 = json5.parse(
 const hrFuncSidebarPathv1 = "./docs/hr/functional/v1.0/sidebar.json5";
 const hrFuncSidebarv1 = json5.parse(fs.readFileSync(hrFuncSidebarPathv1, "utf8"));
 
+const hrFuncSidebarPathv2 = "./docs/hr/functional/v2.0/sidebar.json5";
+const hrFuncSidebarv2 = json5.parse(fs.readFileSync(hrFuncSidebarPathv2, "utf8"));
+
 const crmFuncSidebarPathv1 = "./docs/crm/functional/v1.0/sidebar.json5";
 const crmFuncSidebarv1 = json5.parse(fs.readFileSync(crmFuncSidebarPathv1, "utf8"));
 
@@ -99,6 +102,7 @@ export default defineConfig({
         text: "Docs",
         items: [
           { text: "HR", link: "/hr/functional/v1.0/" },
+          { text: "HR (v2.0)", link: "/hr/functional/v2.0/" },
           { text: "CRM", link: "/crm/functional/v1.0/" },
           { text: "HR Technical", link: "/hr/technical/v2.0/" }
         ]
@@ -130,6 +134,7 @@ export default defineConfig({
     sidebar: {
       "/": hrFuncSidebarv1,
       "/hr/functional/v1.0/": hrFuncSidebarv1,
+      "/hr/functional/v2.0/": hrFuncSidebarv2,
       "/crm/functional/v1.0/": crmFuncSidebarv1,
       "/hr/technical/v2.0/": hrTechnicalSidebarv2,
     },
