@@ -44,5 +44,5 @@ An employee's profile is their whole record in one place. Open it by clicking a 
 ![Documents tab](media/profile-documents.png)
 
 ::: info Not tested
-Editing a profile, uploading or approving documents, and changing groups were not exercised. Each tab mirrors a module covered elsewhere in this guide: for example the **Leave** tab corresponds to [Leave](/hr/functional/v2.0/leave) and **Attendance** to [Attendance](/hr/functional/v2.0/attendance).
+Editing a profile, uploading or approving documents, and changing groups were not exercised. Each tab mirrors a module covered elsewhere in this guide: for example the **Leave** tab corresponds to [Leave](/hr/functional/v2.0/leave/) and **Attendance** to [Attendance](/hr/functional/v2.0/attendance).
 :::

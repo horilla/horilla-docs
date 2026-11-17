@@ -9,7 +9,7 @@ This page explains the ideas that appear in every chapter. It is written for an 
 3. **Schedules and policies**: [Work Schedules](/hr/functional/v2.0/employee/work-schedules), [Attendance Rules](/hr/functional/v2.0/attendance/attendance-rules), [Leave configuration](/hr/functional/v2.0/leave/configuration) and [Public Holidays](/hr/functional/v2.0/leave/public-holidays).
 4. **Employees**: [add them](/hr/functional/v2.0/employee/employees) with work information that points at the structure above.
 5. **Access**: [Roles and Permissions](/hr/functional/v2.0/settings/roles-permissions).
-6. **Day-to-day modules**: [Attendance](/hr/functional/v2.0/attendance), [Leave](/hr/functional/v2.0/leave), [Payroll](/hr/functional/v2.0/payroll), [Recruitment](/hr/functional/v2.0/recruitment), [Onboarding](/hr/functional/v2.0/onboarding), [Offboarding](/hr/functional/v2.0/offboarding), [Performance](/hr/functional/v2.0/performance), [Project](/hr/functional/v2.0/project), [Assets](/hr/functional/v2.0/asset), [Tickets](/hr/functional/v2.0/helpdesk) and [Reports](/hr/functional/v2.0/report).
+6. **Day-to-day modules**: [Attendance](/hr/functional/v2.0/attendance), [Leave](/hr/functional/v2.0/leave/), [Payroll](/hr/functional/v2.0/payroll), [Recruitment](/hr/functional/v2.0/recruitment), [Onboarding](/hr/functional/v2.0/onboarding), [Offboarding](/hr/functional/v2.0/offboarding), [Performance](/hr/functional/v2.0/performance), [Project](/hr/functional/v2.0/project), [Assets](/hr/functional/v2.0/asset), [Tickets](/hr/functional/v2.0/helpdesk) and [Reports](/hr/functional/v2.0/report).
 
 ## **Ideas used everywhere**
 

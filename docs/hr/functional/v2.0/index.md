@@ -31,7 +31,7 @@ If you are new to Horilla, read in this order:
 |---|---|
 | Getting started | Available |
 | Dashboard | Available |
-| [Leave](/hr/functional/v2.0/leave) | Available |
+| [Leave](/hr/functional/v2.0/leave/) | Available |
 | [Attendance](/hr/functional/v2.0/attendance) | Available |
 | [Employee](/hr/functional/v2.0/employee) | Available |
 | [Payroll](/hr/functional/v2.0/payroll) | Available |

@@ -9,8 +9,9 @@
   {
     collapsed: false,
     text: "Leave",
-    link: "/hr/functional/v2.0/leave",
+    link: "/hr/functional/v2.0/leave/",
     items: [
+      { text: "Overview", link: "/hr/functional/v2.0/leave/" },
       { text: "Leave Dashboard", link: "/hr/functional/v2.0/leave/dashboard" },
       { text: "My Leave Requests", link: "/hr/functional/v2.0/leave/my-leave-requests" },
       { text: "Leave Requests", link: "/hr/functional/v2.0/leave/leave-requests" },
@@ -20,6 +21,23 @@
       { text: "Public Holidays", link: "/hr/functional/v2.0/leave/public-holidays" },
       { text: "Configuration", link: "/hr/functional/v2.0/leave/configuration" },
       { text: "Leave Rules and Weekly Off Days", link: "/hr/functional/v2.0/leave/leave-rules" },
+      {
+        collapsed: true,
+        text: "Guides",
+        items: [
+          { text: "Approve a leave request", link: "/hr/functional/v2.0/leave/guides/approve-a-leave-request" },
+        ],
+      },
+      {
+        collapsed: true,
+        text: "Help articles",
+        items: [
+          {
+            text: "Why does a leave request count the weekend as leave days?",
+            link: "/hr/functional/v2.0/leave/help/why-does-a-leave-request-count-the-weekend-as-leave-days",
+          },
+        ],
+      },
     ],
   },
   {
