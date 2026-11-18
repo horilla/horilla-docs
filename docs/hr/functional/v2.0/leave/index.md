@@ -45,10 +45,14 @@ Maya and Daniel have no **Weekly Off Days** item under **Leave**. Sofia and Ravi
 ## Common tasks
 
 - [Approve a leave request](/hr/functional/v2.0/leave/guides/approve-a-leave-request)
+- [Create a leave request for an employee](/hr/functional/v2.0/leave/guides/create-a-leave-request-for-an-employee)
+- [Set up leave types and carry forward](/hr/functional/v2.0/leave/guides/set-up-leave-types-and-carry-forward)
+- [Assign leave to employees](/hr/functional/v2.0/leave/guides/assign-leave-to-employees)
 
 ## Help articles
 
 - [Why does a leave request count the weekend as leave days?](/hr/functional/v2.0/leave/help/why-does-a-leave-request-count-the-weekend-as-leave-days)
+- [Why can an employee request more leave days than the balance?](/hr/functional/v2.0/leave/help/why-can-an-employee-request-more-leave-days-than-the-balance)
 
 ::: info Not tested
 Compensatory leave, allocation requests, restricted periods (Ravi and Sofia can open the page by address without a menu item; its content was not examined), multiple-approval rules, cancellation, bulk actions, and whether a leave type must be held before requesting it were not exercised.

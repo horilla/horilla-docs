@@ -26,6 +26,15 @@
         text: "Guides",
         items: [
           { text: "Approve a leave request", link: "/hr/functional/v2.0/leave/guides/approve-a-leave-request" },
+          {
+            text: "Create a leave request for an employee",
+            link: "/hr/functional/v2.0/leave/guides/create-a-leave-request-for-an-employee",
+          },
+          {
+            text: "Set up leave types and carry forward",
+            link: "/hr/functional/v2.0/leave/guides/set-up-leave-types-and-carry-forward",
+          },
+          { text: "Assign leave to employees", link: "/hr/functional/v2.0/leave/guides/assign-leave-to-employees" },
         ],
       },
       {
@@ -35,6 +44,10 @@
           {
             text: "Why does a leave request count the weekend as leave days?",
             link: "/hr/functional/v2.0/leave/help/why-does-a-leave-request-count-the-weekend-as-leave-days",
+          },
+          {
+            text: "Why can an employee request more leave days than the balance?",
+            link: "/hr/functional/v2.0/leave/help/why-can-an-employee-request-more-leave-days-than-the-balance",
           },
         ],
       },
