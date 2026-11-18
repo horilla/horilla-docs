@@ -81,7 +81,7 @@ The employee does not hold it. Assign it as above; the **Leave Type** list of a 
 Weekly off days are defined in **Settings → Organization → Weekly Off Days**, and **Exclude Company Weekoff** only works once they exist. See [Why does a leave request count the weekend as leave days?](/hr/functional/v2.0/leave/help/why-does-a-leave-request-count-the-weekend-as-leave-days).
 
 ::: info Not tested
-The reset itself (waiting for 1 January 2027, or running a missed reset), **Carry Forward with Expire** and its fields (the dialog shows **Expiry Method**, **First Expiry Date**, **Carryforward Expires In** and **Carryforward Expiry Period**, but nothing was saved with them), the other **Reset Period** choices, **Limit Leave Days** turned off, **Require Attachment**, **Encashable**, **Icon**, **Exclude Holidays**, the effect of **Exclude Company Weekoff** on a request, **Delete**, and a request on Study Leave were not exercised. Other roles were not walked.
+The date on the card was 01 Jan 2027 in this walk, and 02 Jan 2027 for Annual Leave when the sample company was reseeded after midnight; the reason was not investigated. The reset itself (waiting for 1 January 2027, or running a missed reset), **Carry Forward with Expire** and its fields (the dialog shows **Expiry Method**, **First Expiry Date**, **Carryforward Expires In** and **Carryforward Expiry Period**, but nothing was saved with them), the other **Reset Period** choices, **Limit Leave Days** turned off, **Require Attachment**, **Encashable**, **Icon**, **Exclude Holidays**, the effect of **Exclude Company Weekoff** on a request, **Delete**, and a request on Study Leave were not exercised. Other roles were not walked.
 :::
 
 ## Related pages

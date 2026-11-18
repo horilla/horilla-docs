@@ -23,7 +23,7 @@ On Wednesday 18 November 2026, Priya Nair, a developer at Lakeside Works, phones
 
 2. In the **Leave Request** dialog, set **Employee** to **Priya Nair**. The list starts on your own name.
 3. Set **Leave Type** to **Sick Leave**. A green label at the top of the dialog reads `Available Leaves : 10.0`.
-4. Leave **Start date** and **End date** at 18/11/2026, which is today, and both breakdowns at **Full Day**. Use **First Half** or **Second Half** for a half day.
+4. Leave **Start date** and **End date** as they are: both start on today's date, which was 18/11/2026 when the screenshots were taken. Leave both breakdowns at **Full Day**. Use **First Half** or **Second Half** for a half day.
 5. Type a **Description**, for example `Called in sick this morning`. **Employee**, **Start date**, **End date**, both breakdowns and **Description** are required. **Attachment** is optional.
 
    ![Leave Request dialog filled in for Priya Nair, with Employee, Leave Type, Description and the available-days label highlighted](../media/leave-request-create-for-priya.png)
