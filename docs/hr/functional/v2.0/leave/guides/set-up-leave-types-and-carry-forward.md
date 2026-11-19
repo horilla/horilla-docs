@@ -18,9 +18,9 @@ Maya Chen, the HR administrator at Lakeside Works, adds a fourth leave type, Stu
 
 | Decision | Options on the screen | What it changes |
 |---|---|---|
-| **Leave Payment** | **Paid**, **Unpaid** | Whether the days are paid. The list shows a paid type created here as `Paid (100%)`. |
+| **Leave Payment** | **Paid**, **Unpaid**, **Custom** | Whether the days are paid. The list shows a paid type created here as `Paid (100%)`. **Custom** adds a **Payment Percentage** field; it was not saved or tested here. |
 | **Require Approval**, **Require Attachment**, **Encashable** | Switches. **Require Approval** is on by default | Whether a manager must decide the request, whether a file is required, whether unused days can be cashed in |
-| **Exclude Company Weekoff**, **Exclude Holidays** | Switches, off by default | Whether weekly off days and public holidays inside the dates are left out of the count |
+| **Exclude Company Weekoff**, **Exclude Holidays** | Two switches under the **Exclusions** heading, off by default | Whether weekly off days and public holidays inside the dates are left out of the count |
 | **Limit Leave Days** and **Total Days** | A switch (on by default) and a number | The days an employee holds. Turn the switch off for a type with no limit |
 | **Reset Leave Balance** | A switch, with **Reset Period**: **Yearly**, **Monthly**, **Weekly** or **Custom** | Whether the balance is restored on a schedule |
 | **Carryforward Type** | **No Carry Forward**, **Carry Forward**, **Carry Forward with Expire** | What happens to unused days at the reset |
@@ -30,7 +30,7 @@ Maya Chen, the HR administrator at Lakeside Works, adds a fourth leave type, Stu
 1. Open **Leave → Configuration** and click **Create**. The **Create Leave Type** dialog opens on step **1 Basic Details**.
 2. Type the **Name**, `Study Leave`. It is required: clicking **Next** with it empty shows `This field is required.` and stays on the step.
 3. Set **Leave Payment** to **Paid**.
-4. Turn on **Exclude Company Weekoff**. Its hint reads: "When on, company weekoff days that fall within the leave dates are not counted as leave days." Leave the other switches as they are.
+4. Scroll to the **Exclusions** heading and turn on **Exclude Company Weekoff**, the switch next to **Exclude Holidays**. Its hint reads: "When on, company weekoff days that fall within the leave dates are not counted as leave days." Leave the other switches as they are.
 
    ![Create Leave Type dialog, step Basic Details, with the name and the Exclude Company Weekoff switch highlighted](../media/leave-type-create-basic-details.png)
    *Step 1 holds the name, payment, request rules and exclusions. Sample data.*
@@ -51,7 +51,7 @@ Check: **Study Leave** is the first row of the list, **Paid (100%)**, **5.0** to
 
 ## Give it to an employee
 
-A leave type does nothing until an employee holds it. In the **Actions** column of the Study Leave row, click **Assign** (the first icon). In the **Assign Leave** dialog, type `Maya` in **Employee**, choose **Maya Chen**, check that **Leave Days** reads 5, and click **Save**. [Assign leave to employees](/hr/functional/v2.0/leave/guides/assign-leave-to-employees) covers this step, and giving a type to many people, in full.
+A leave type does nothing until an employee holds it. In the **Actions** column of the Study Leave row, click **Assign** (the first icon). In the **Assign Leave** dialog, type `Maya` in **Employee** and choose **Maya Chen**. A **Leave Days** table appears under the field once the employee is chosen; check that it reads 5, and click **Save**. A green message reads `Leave type assign is successfull` (sic, as the screen shows it). [Assign leave to employees](/hr/functional/v2.0/leave/guides/assign-leave-to-employees) covers this step, and giving a type to many people, in full.
 
 ## How carry forward works
 
@@ -61,8 +61,8 @@ Check: sign in as Maya, open **Leave → My Leave Requests** and click **More de
 
 ## Change a leave type
 
-1. In **Leave → Configuration**, click **Update** (the pencil) in the row of the leave type.
-2. Open step **2 Leave Rules** with **Next**, and change **Carryforward Maximum** from 2 to 3.
+1. In **Leave → Configuration**, click **Update** (the pencil) in the row of the leave type. The **Update Leave Type** dialog opens on step **1 Basic Details**, which has only a **Next** button.
+2. Open step **2 Leave Rules** with **Next**, where **Previous** and **Update** appear, and change **Carryforward Maximum** from 2 to 3.
 3. Click **Update**. The message reads `Leave type is updated successfully..`.
 
 ![My Leave requests with the Study Leave card open and Balance after 8 highlighted](../media/my-leave-requests-study-leave-balance-after.png)
