@@ -27,7 +27,7 @@ On Monday 16 November 2026, Ravi Menon, a developer, has a request waiting for A
    ![Leave Requests list with the Approve icon highlighted in Ravi Menon's row](../media/leave-requests-approve-action.png)
    *The icons carry no text, but pointing at one shows its name. Sample data.*
 
-4. In the dialog that asks **Do you really want to approve this request?**, click **OK**.
+4. In the dialog that asks **Do you really want to approve this request?**, click **OK**. When the request ends in a later month than the current one, the dialog reads instead `This leave request is for the month of December. Approval depends on the Ravi Menon having available leave days for this month.` (the month and name change with the request). Click **OK** in that case too.
 
    ![Approve dialog with the OK button highlighted](../media/leave-requests-approve-dialog.png)
    *Cancel closes the dialog. Sample data.*
