@@ -7,12 +7,12 @@ reviewed_against: "2.4.0"
 
 # Create a leave request for an employee
 
-On Wednesday 18 November 2026, Priya Nair, a developer at Lakeside Works, phones in sick and has no time to open Horilla. Daniel Okafor, the HR Manager, records one day of Sick Leave for her from **Leave Requests**. Verified for Daniel (HR Manager), Maya Chen (administrator) and Sofia Rossi (engineering manager). Daniel's walk was complete; Maya and Sofia each saved one request for another employee.
+On a working day in November 2026, Priya Nair, a developer at Lakeside Works, phones in sick and has no time to open Horilla. Daniel Okafor, the HR Manager, records one day of Sick Leave for her from **Leave Requests**. Verified for Daniel (HR Manager), Maya Chen (administrator) and Sofia Rossi (engineering manager). Daniel's walk was complete; Maya and Sofia each saved one request for another employee.
 
 ## Before you start
 
 - You can open **Leave → Leave Requests**: you have `leave.view_leaverequest`, or you are a reporting manager. See [Leave](/hr/functional/v2.0/leave/).
-- The employee already holds a balance of the leave type, in [Leave Balances](/hr/functional/v2.0/leave/leave-balances). The **Leave Type** list only offers the types the chosen employee holds.
+- The employee already holds a balance of the leave type, in [Leave Balances](/hr/functional/v2.0/leave/leave-balances). The **Leave Type** list only offers the types the chosen employee holds. Before you pick an employee it already lists **Sick Leave** and **Annual Leave**, the two types you hold yourself in the sample company.
 
 ## Steps
 
@@ -23,11 +23,11 @@ On Wednesday 18 November 2026, Priya Nair, a developer at Lakeside Works, phones
 
 2. In the **Leave Request** dialog, set **Employee** to **Priya Nair**. The list starts on your own name.
 3. Set **Leave Type** to **Sick Leave**. A green label at the top of the dialog reads `Available Leaves : 10.0`.
-4. Leave **Start date** and **End date** as they are: both start on today's date, which was 18/11/2026 when the screenshots were taken. Leave both breakdowns at **Full Day**. Use **First Half** or **Second Half** for a half day.
+4. Leave **Start date** and **End date** as they are: both start on today's date. The screenshots show 2026-11-19, the day they were taken, so your dates will differ. Leave both breakdowns at **Full Day**. Use **First Half** or **Second Half** for a half day.
 5. Type a **Description**, for example `Called in sick this morning`. **Employee**, **Start date**, **End date**, both breakdowns and **Description** are required. **Attachment** is optional.
 
    ![Leave Request dialog filled in for Priya Nair, with Employee, Leave Type, Description and the available-days label highlighted](../media/leave-request-create-for-priya.png)
-   *The label shows Priya's own balance, not yours. Sample data.*
+   *The label shows Priya's own balance, not yours. The dates are the day the screenshot was taken. Sample data.*
 
 6. Click **Save**.
 
@@ -36,11 +36,12 @@ On Wednesday 18 November 2026, Priya Nair, a developer at Lakeside Works, phones
 A green message reads `Leave request created successfully`, and the new row is at the top of the list:
 
 ```text
-Priya Nair   Sick Leave   2026-11-18   2026-11-18   1.0   Requested
+# <today> stands for today's date, 2026-11-19 in the screenshot
+Priya Nair   Sick Leave   <today>   <today>   1.0   Requested
 ```
 
 ![Leave Requests list with Priya Nair's new Sick Leave row highlighted as Requested](../media/leave-requests-priya-created.png)
-*The request waits for a decision like any other. Sample data.*
+*The request waits for a decision like any other. Both dates are the day the screenshot was taken. Sample data.*
 
 Sign in as Priya and open **Leave → My Leave Requests**. The row is there with the status *Requested*. The **Sick Leave** card still shows **Available Leave Days** 10.0 and **Total Leave Taken** 0, because days leave the balance only when the request is approved. See [Approve a leave request](/hr/functional/v2.0/leave/guides/approve-a-leave-request).
 
