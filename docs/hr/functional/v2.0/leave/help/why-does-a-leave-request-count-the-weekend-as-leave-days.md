@@ -50,13 +50,12 @@ You need an administrator, or a role that can open **Weekly Off Days** and updat
    *Both rules apply to every week. Sample data.*
 
 4. Open **Leave → Configuration**. In the row of **Annual Leave**, the **Actions** column has four icons: **Assign** (a person with a plus), a circular arrow (**No overdue resets**), **Update** (a pencil) and **Delete** (a bin). Click **Update**.
-5. Check **Leave Payment** before you go on. The list shows `---------` even though the leave type is paid. Choose **Paid** again, or the type is saved as *Unpaid*.
-6. Turn on **Exclude Company Weekoff**.
+5. Turn on **Exclude Company Weekoff**.
 
    ![Update Leave Type form with the Exclude Company Weekoff switch highlighted and turned on](../media/leave-type-form-exclusions.png)
-   *The Leave Payment list shows dashes here although the type is paid. Sample data.*
+   *Leave Payment already shows Paid, so leave it as it is. Sample data.*
 
-7. Click **Next**, then **Update**. The message reads `Leave type is updated successfully..`.
+6. Click **Next**, then **Update**. The message reads `Leave type is updated successfully..`.
 
 ::: warning
 Requests that already exist keep their old count. Sign in as the employee, open **Leave → My Leave Requests**, click **Edit** in the row of the request and click **Save** without changing anything. The count is recalculated. A request that is no longer *Requested* was not tested.
